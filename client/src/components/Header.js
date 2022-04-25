@@ -40,7 +40,7 @@ const Header = () => {
                 <Navbar 
                     className="black" 
                     alignLinks="right" 
-                    brand={<a href="/" className="brand-logo teal-text">God's Own Tourism</a>}
+                    brand={<a href="/" className="brand-logo white-text">PromoCrew</a>}
                     id="mobile-nav"
                     menuIcon={<Icon className="teal-text">menu</Icon>}
                     options={{ 
