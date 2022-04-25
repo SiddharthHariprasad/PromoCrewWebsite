@@ -54,7 +54,6 @@ const Header = () => {
                     <NavItem href="/Packages" className="waves-effect waves-light">Services</NavItem>
                     <NavItem href="/Tickets" className="waves-effect waves-light">Contact Us</NavItem>
                     <NavItem href="/AboutUs" className="waves-effect waves-light">About Us</NavItem>
-                    <NavItem href="/Cart" className="waves-effect waves-light"><Icon>shopping_cart</Icon></NavItem>
                     { user ? (
                         <Dropdown 
                             id="dropDownSettings" 
