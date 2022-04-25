@@ -4,7 +4,7 @@ function AboutUs() {
             <div className="container aboutUsPage">
                 <h1>About Us</h1>
                 <p>
-                    God's Own Tourism is a website geared towards simplifying the travel experience. We offer tickets, travel packages, hotels, cabs and guides all under one roof.
+                    PromoCrew Is an advertising company that offers you maximum boost for your product through both offline and online ads 
                 </p>
             </div>
         </div>

@@ -40,7 +40,7 @@ const Header = () => {
                 <Navbar 
                     className="black" 
                     alignLinks="right" 
-                    brand={<a href="/" className="brand-logo white-text">PromoCrew</a>}
+                    brand={<a href="/" className="brand-logo white-text"><img src=""></img> PromoCrew</a>}
                     id="mobile-nav"
                     menuIcon={<Icon className="teal-text">menu</Icon>}
                     options={{ 
@@ -51,57 +51,10 @@ const Header = () => {
                         preventScrolling: true,
                     }}
                 >
-                    <NavItem href="/Packages" className="waves-effect waves-light">Services</NavItem>
-                    <NavItem href="/Tickets" className="waves-effect waves-light">Contact Us</NavItem>
+                    <NavItem href="/Services" className="waves-effect waves-light">Services</NavItem>
+                    <NavItem href="/OurWorks" className="waves-effect waves-light">Our Works</NavItem>
+                    <NavItem href="/ContactUs" className="waves-effect waves-light">Contact Us</NavItem>
                     <NavItem href="/AboutUs" className="waves-effect waves-light">About Us</NavItem>
-                    { user ? (
-                        <Dropdown 
-                            id="dropDownSettings" 
-                            className="black"
-                            options={{
-                                alignment: 'left',
-                                autoTrigger: true,
-                                closeOnClick: false,
-                                constrainWidth: false,
-                                container: null,
-                                coverTrigger: false,
-                                hover: false,
-                                inDuration: 150,
-                                outDuration: 250
-                            }}
-                            trigger={
-                                <img 
-                                    src={user?.result?.imageUrl || person} 
-                                    alt={user?.result?.name.charAt(0)} 
-                                    className="circle" 
-                                    height="50px" 
-                                    width="50px" 
-                                    style={{ 
-                                        borderStyle: 'solid', 
-                                        borderColor: 'teal',
-                                        verticalAlign: 'middle', 
-                                        marginLeft: '1em' 
-                                    }}
-                                />
-                            }
-                            >
-                                <span className="teal-text text-lighten-4">{user?.result?.name}</span>
-                                { user?.result?.serviceProvider ? 
-                                    <><a href="/FormCab" className="teal-text text-lighten-4">Add Cab</a>
-                                    <a href="/FormGuide" className="teal-text text-lighten-4">Add Guide</a>
-                                    <a href="/FormHotel" className="teal-text text-lighten-4">Add Hotel</a>
-                                    <a href="/FormPack" className="teal-text text-lighten-4">Add Pack</a>
-                                    <a href="/FormTicket" className="teal-text text-lighten-4">Add Ticket</a>
-                                    <a href="/EditForm" className="teal-text text-lighten-4">Edit Items</a>
-                                    <a href="/DeleteForm" className="teal-text text-lighten-4">Delete Item</a></>
-                                    : null
-                                }
-                                <Button node="button" waves="teal" onClick={logout}>Logout<Icon right>logout</Icon></Button>
-                        </Dropdown>
-                            ) : (
-                                <Button href="/Auth" node="a" waves="teal">Sign In</Button>
-                            )
-                    }
                 </Navbar>
             </div>
         </header>

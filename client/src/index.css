@@ -68,12 +68,18 @@ p, footer a,.footer-copyright {
 }
 
 .sidenav {
-    background-color: #1de9b6;
+    background-color: #e91d1d;
     color: black;
 }
 
+hr{
+    height: 1px;
+    background-color: #ff4b4b;
+    border: none;
+}
+
 nav ul a {
-    color: #00bfa5;
+    color: #ff4b4b;
     font-size: large;
 }
 
@@ -86,7 +92,7 @@ nav .brand-logo {
 }
 
 .carousel-image-1 {
-    background-image: url("./components/images/tea.jpg");
+    background-image: url("./components/images/banner2.gif");
     background-size: cover;
     background-position: center;
 }
