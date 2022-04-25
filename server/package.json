@@ -1,0 +1,23 @@
+{
+  "name": "got",
+  "version": "1.0.0",
+  "description": "God's Own Tourism is a website geared towards simplifying the travel experience. We offer tickets, travel packages, hotels, cabs and guides all under one roof.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "author": "Siddharth Hariprasad",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.17",
+    "nodemon": "^2.0.7"
+  }
+}

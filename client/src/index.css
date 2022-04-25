@@ -1,0 +1,159 @@
+/* Custom CSS styling */
+
+/* Importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* fonts can be used using the following CSS rules */
+/* 
+    font-family: 'Caveat', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Roboto', sans-serif; 
+*/
+
+html {
+    font-family: 'Caveat', cursive;
+}
+
+p, footer a,.footer-copyright {
+    font-family: 'Roboto', sans-serif; 
+}
+
+.errorPage {
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30%;
+}
+
+.aboutUsPage {
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30%;
+}
+
+.authPage {
+    align-items: center;
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.cartPage {
+    align-items: center;
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.orderPage {
+    align-items: center;
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.editFormPage {
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30%;
+}
+
+.deleteFormPage {
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30%;
+}
+
+.loaderPage {
+    align-items: center;
+    text-align: center;
+    padding-top: 30%;
+    padding-bottom: 30%;
+}
+
+.sidenav {
+    background-color: #1de9b6;
+    color: black;
+}
+
+nav ul a {
+    color: #00bfa5;
+    font-size: large;
+}
+
+nav .brand-logo {
+    font-size: 2.3rem;
+}
+
+.carousel-holder {
+    width: 100%;
+}
+
+.carousel-image-1 {
+    background-image: url("./components/images/tea.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-image-2 {
+    background-image: url("./components/images/tractor.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-link {
+    text-align: center;
+    display: block;
+    font-size: 20em;
+    opacity: 0;
+}
+
+section > div > a {
+    color: black;
+}
+
+.card .card-image .card-title {
+    width: 100%;   
+    text-align: center;
+}
+
+.card .card-reveal {
+    background-color: black;
+    font-size: 1.5em;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.card .card-reveal::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+
+.card .card-reveal{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+.card-content {
+    font-size: 1.5em;
+}
+
+.ticketType {
+    font-size: 1.2em;
+}
+
+.ticket-title {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.success {
+    color: white;
+    font-size: 2.5em;
+    margin-top: 5%;
+    background-color: green;
+}
+
+@media screen {
+    .parallax-container {
+        position: relative;
+        overflow: hidden;
+        height: 200px;
+      }   
+}
