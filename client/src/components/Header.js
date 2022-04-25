@@ -51,11 +51,8 @@ const Header = () => {
                         preventScrolling: true,
                     }}
                 >
-                    <NavItem href="/Packages" className="waves-effect waves-light">Packages</NavItem>
-                    <NavItem href="/Tickets" className="waves-effect waves-light">Tickets</NavItem>
-                    <NavItem href="/Hotels" className="waves-effect waves-light">Hotels</NavItem>
-                    <NavItem href="/Cabs" className="waves-effect waves-light">Cabs</NavItem>
-                    <NavItem href="/Guides" className="waves-effect waves-light">Guides</NavItem>
+                    <NavItem href="/Packages" className="waves-effect waves-light">Services</NavItem>
+                    <NavItem href="/Tickets" className="waves-effect waves-light">Contact Us</NavItem>
                     <NavItem href="/AboutUs" className="waves-effect waves-light">About Us</NavItem>
                     <NavItem href="/Cart" className="waves-effect waves-light"><Icon>shopping_cart</Icon></NavItem>
                     { user ? (
