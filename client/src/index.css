@@ -30,6 +30,16 @@ p, footer a,.footer-copyright {
     padding-bottom: 30%;
 }
 
+.contactUsPage {
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30%;
+}
+
+.contactUsPage a {
+    color: #f75959;
+}
+
 .authPage {
     align-items: center;
     text-align: center;

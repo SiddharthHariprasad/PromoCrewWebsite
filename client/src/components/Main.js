@@ -9,6 +9,7 @@ import Hotels from './Hotels/Hotels';
 import Cabs from './Cabs/Cabs';
 import Guides from './Guides/Guides';
 import AboutUs from './AboutUs';
+import ContactUs from './ContactUs';
 import ErrorPage from './ErrorPage';
 import FormPack from './Form/FormPack';
 import FormTicket from './Form/FormTicket';
@@ -40,6 +41,7 @@ const Main = () => {
             <Route path="/Cart" component={Cart}></Route>
             <Route path="/Order" component={Order}></Route>
             <Route path="/AboutUs" component={AboutUs}></Route>
+            <Route path="/ContactUs" component={ContactUs}></Route>
             <Route path="/FormPack">
                 <FormPack currentId={currentId} setCurrentId={setCurrentId} currentDeleteId={currentDeleteId} setCurrentDeleteId={setCurrentDeleteId} />
             </Route>
