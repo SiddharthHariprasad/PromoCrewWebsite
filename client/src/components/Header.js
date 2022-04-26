@@ -1,16 +1,17 @@
 import React from 'react';
 import { Icon, Navbar, NavItem } from 'react-materialize';
+import logo from './images/logo.png';
 const Header = () => {
     return(
         <header>
-            <div className="black" style={{'padding': '0% 5%'}}>
+            <div className="red lighten-1" style={{'padding': '0% 5%'}}>
                 {/* Nav to hold the navbar */}
                 <Navbar 
-                    className="black" 
+                    className="red lighten-1" 
                     alignLinks="right" 
-                    brand={<a href="/" className="brand-logo white-text"><img src=""></img> PromoCrew</a>}
+                    brand={<a href="/" className="brand-logo white-text"><img src={logo} alt="logo" height="10" width="50"></img> PromoCrew</a>}
                     id="mobile-nav"
-                    menuIcon={<Icon className="teal-text">menu</Icon>}
+                    menuIcon={<Icon className="red-text text-accent-1">menu</Icon>}
                     options={{ 
                         draggable: true, 
                         edge: 'left', 

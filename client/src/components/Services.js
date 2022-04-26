@@ -1,5 +1,4 @@
-import { Card, Icon, Row, Col, CardTitle} from 'react-materialize';
-import kfc from './images/kfc.png';
+import { Card, Row, Col} from 'react-materialize';
 
 
 function OurWorks() {

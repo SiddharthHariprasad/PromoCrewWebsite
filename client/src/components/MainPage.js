@@ -1,5 +1,5 @@
-import tea from './images/tea.jpg';
-import tractor from './images/tractor.jpg';
+import banner3 from './images/banner3.png';
+import banner4 from './images/banner4.png';
 import { CardPanel, Carousel, Col, Parallax, Row } from 'react-materialize';
 
 function MainPage() {
@@ -7,7 +7,7 @@ function MainPage() {
         <div id="main-content">
             <div className="carousel-holder black" id="image-carousel">
                 {/* Photo Carousel */}
-                <Carousel carouselId="Carousel-1" options={{ fullWidth: true, indicators: true }}>
+                <Carousel carouselId="Carousel-1" options={{ fullWidth: true, fullHeight: true }}>
                     {/* carousel div where the links and images */}
                     <div className="black carousel-image-1">
                         <a href="/branding" className="carousel-link" alt="go to branding">.</a>
@@ -16,7 +16,7 @@ function MainPage() {
             </div>
             
             {/* Parallax */}'
-            <Parallax image={<img src={tractor} alt="tractor" className="responsive-img" />} options={{responsiveThreshold: 0}} />
+            {/* <Parallax image={<img src={banner3} alt="banner3" className="responsive-img" />} options={{responsiveThreshold: 0}} /> */}
             {/* Feedback */}
             <section className="container section" id="feedback">
                 {/* new row inside the section for feedback title */}
@@ -51,7 +51,7 @@ function MainPage() {
                 </Row>
             </section>
             {/* Parallax */}
-            <Parallax image={<img src={tea} alt="tractor" className="responsive-img" />} options={{responsiveThreshold: 0}} />
+            {/* <Parallax image={<img src={banner4} alt="banner4" className="responsive-img" />} options={{responsiveThreshold: 0}} /> */}
         </div>
     );
 }
