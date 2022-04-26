@@ -40,7 +40,7 @@ p, footer a,.footer-copyright {
     color: #f75959;
 }
 
-#comtactUsForm {
+#contactUsForm {
     padding: 2%;   
 }
 
@@ -48,45 +48,8 @@ p, footer a,.footer-copyright {
     background-color: #f75959;
 }
 
-.authPage {
-    align-items: center;
-    text-align: center;
-    padding-bottom: 10%;
-}
-
-.cartPage {
-    align-items: center;
-    text-align: center;
-    padding-bottom: 10%;
-}
-
-.orderPage {
-    align-items: center;
-    text-align: center;
-    padding-bottom: 10%;
-}
-
-.editFormPage {
-    align-items: center;
-    text-align: center;
-    padding-bottom: 30%;
-}
-
-.deleteFormPage {
-    align-items: center;
-    text-align: center;
-    padding-bottom: 30%;
-}
-
-.loaderPage {
-    align-items: center;
-    text-align: center;
-    padding-top: 30%;
-    padding-bottom: 30%;
-}
-
 .sidenav {
-    background-color: #e91d1d;
+    background-color: #f75959;
     color: black;
 }
 
@@ -135,6 +98,7 @@ section > div > a {
 .card .card-image .card-title {
     width: 100%;   
     text-align: center;
+    font-size: 1.5em;
 }
 
 .card .card-reveal {
@@ -155,7 +119,7 @@ section > div > a {
   }
 
 .card-content {
-    font-size: 1.5em;
+    font-size: 0.75em;
 }
 
 .ticketType {

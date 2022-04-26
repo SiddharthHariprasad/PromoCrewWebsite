@@ -1,6 +1,6 @@
 import emailjs from '@emailjs/browser';
 import { useState } from "react";
-import { Button, Card, Icon, Preloader, Textarea, TextInput } from 'react-materialize';
+import { Button, Card, Icon, Textarea, TextInput } from 'react-materialize';
 
 
 const Result = ()=>{
@@ -35,7 +35,7 @@ function ContactUs() {
         <div id="main-content">
             <div className="container contactUsPage">
                 <h1>Contact Us</h1>
-                <Card id="comtactUsForm" className="from-section">
+                <Card id="contactUsForm" className="from-section">
                     <form onSubmit={sendEmail}>
                         {/* <label>Name</label> 
                         <input type="text" name="name" required/> */}

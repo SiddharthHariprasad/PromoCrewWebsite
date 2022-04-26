@@ -1,37 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import { Button, Dropdown, Icon, Navbar, NavItem } from 'react-materialize';
-import { useDispatch } from 'react-redux';
-import { useHistory, useLocation } from 'react-router-dom';
-import decode from 'jwt-decode';
-
+import React from 'react';
+import { Icon, Navbar, NavItem } from 'react-materialize';
 const Header = () => {
-    
-    const [user, setUser] = useState(JSON.parse(localStorage.getItem('profile')));
-    const dispatch = useDispatch();
-    const history = useHistory();
-    const location = useLocation();
-
-    const logout = () => {
-        dispatch({ type: 'LOGOUT' });
-        history.push('/');
-        setUser(null);
-    };
-
-    useEffect(() => {
-        const token = user?.token;
-
-        if (token) {
-            const decodedToken = decode(token);
-
-            if (decodedToken.exp * 1000 < new Date().getTime()) {
-                logout();
-            }
-        }
-
-        setUser(JSON.parse(localStorage.getItem('profile')));
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [location]);
-
     return(
         <header>
             <div className="black" style={{'padding': '0% 5%'}}>
