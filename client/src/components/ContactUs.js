@@ -35,7 +35,7 @@ function ContactUs() {
         <div id="main-content">
             <div className="container contactUsPage">
                 <h1>Contact Us</h1>
-                <div id="comtactUsForm" className="from-section card">
+                <Card id="comtactUsForm" className="from-section">
                     <form onSubmit={sendEmail}>
                         {/* <label>Name</label> 
                         <input type="text" name="name" required/> */}
@@ -58,7 +58,7 @@ function ContactUs() {
                         </Button>
                         <div className="row">{result ? <Result/> : null}</div>
                     </form>
-                </div>
+                </Card>
                 <br />
                 <div>
                     <p className="align-left">

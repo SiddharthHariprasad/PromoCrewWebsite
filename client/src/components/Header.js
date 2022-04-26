@@ -3,7 +3,6 @@ import { Button, Dropdown, Icon, Navbar, NavItem } from 'react-materialize';
 import { useDispatch } from 'react-redux';
 import { useHistory, useLocation } from 'react-router-dom';
 import decode from 'jwt-decode';
-import person from './images/person.png'
 
 const Header = () => {
     
