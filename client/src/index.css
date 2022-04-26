@@ -40,6 +40,14 @@ p, footer a,.footer-copyright {
     color: #f75959;
 }
 
+#comtactUsForm {
+    padding: 2%;   
+}
+
+#submitButton {
+    background-color: #f75959;
+}
+
 .authPage {
     align-items: center;
     text-align: center;
