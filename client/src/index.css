@@ -75,7 +75,7 @@ nav .brand-logo {
 
 .carousel-image-1 {
     background-image: url("./components/images/banner2.gif");
-    height: 100vh;
+    height: 100%;
     background-size: cover;
     background-position: center;
 }
