@@ -15,12 +15,12 @@ function OurWorks() {
                     <Col m={4} s={12}>
                         <a href="#!" className="red-text text-accent-1" key="1">
                             <Card
-                                className="red lighten-1 white-text center-align"
+                                className="center-align"
                                 closeIcon={<Icon></Icon>}
-                                reveal={<img src={kfc} width="200px" height="75px"/>}
+                                reveal={<img src={kfc} className="responsive-img"/>}
                             >
                                 <>
-                                        <h6>KFC Motion Graphic Campaign</h6>
+                                        <h5>KFC Motion Graphic Campaign</h5>
                                         <p>Here is some more information about this product that is only revealed once clicked on.</p>    
                                 </>
                             </Card>
@@ -29,12 +29,12 @@ function OurWorks() {
                     <Col m={4} s={12}>
                         <a href="#!" className="red-text text-accent-1" key="1">
                             <Card
-                                className="red lighten-1 white-text center-align"
+                                className="center-align"
                                 closeIcon={<Icon></Icon>}
-                                reveal={<img src={titan} width="200px" height="75px"/>}
+                                reveal={<img src={titan} className="responsive-img"/>}
                             >
                                 <>
-                                    <h6>Titan Solidarity</h6>
+                                    <h5>Titan Solidarity</h5>
                                     <p>Adipisicing fugiat est ullamco et ipsum eu labore incididunt voluptate sit culpa culpa aute.</p>
                                 </>
                             </Card>
@@ -43,12 +43,12 @@ function OurWorks() {
                     <Col m={4} s={12}>
                         <a href="#!" className="red-text text-accent-1" key="1">
                             <Card
-                                className="red lighten-1 white-text center-align"
+                                className="center-align"
                                 closeIcon={<Icon></Icon>}
-                                reveal={<img src={fastrack} width="200px" height="75px"/>}
+                                reveal={<img src={fastrack} className="responsive-img"/>}
                             >
                                 <>
-                                    <h6>Fastrack Print Marketing Bangalore</h6>
+                                    <h5>Fastrack Print Marketing Bangalore</h5>
                                     <p>Adipisicing fugiat est ullamco et ipsum eu labore incididunt voluptate sit culpa culpa aute.</p>
                                 </>
                         </Card>
@@ -59,11 +59,11 @@ function OurWorks() {
                     <Col m={4} s={12}>
                         <a href="#!" className="red-text text-accent-1" key="1">
                             <Card
-                                className="red lighten-1 white-text center-align"
+                                className="center-align"
                                 closeIcon={<Icon></Icon>}
-                                reveal={<img src={uber} width="200px" height="75px"/>}
+                                reveal={<img src={uber} className="responsive-img"/>}
                             >
-                            <h6>Uber Social Media Ad Campaign</h6>
+                            <h5>Uber Social Media Ad Campaign</h5>
                             <p>Adipisicing fugiat est ullamco et ipsum eu labore incididunt voluptate sit culpa culpa aute.</p>
                             </Card>
                         </a>
@@ -71,12 +71,12 @@ function OurWorks() {
                     <Col m={4} s={12}>
                         <a href="#!" className="red-text text-accent-1" key="1">
                             <Card
-                                className="red lighten-1 white-text center-align"
+                                className="center-align"
                                 closeIcon={<Icon></Icon>}
-                                reveal={<img src={cadbury} width="200px" height="75px"/>}
+                                reveal={<img src={cadbury} className="responsive-img"/>}
                             >
                                 <>
-                                    <h6>Cadbury Valentine Snippet</h6>
+                                    <h5>Cadbury Valentine Snippet</h5>
                                     <p>Adipisicing fugiat est ullamco et ipsum eu labore incididunt voluptate sit culpa culpa aute.</p>
                                 </>
                             </Card>
@@ -85,12 +85,12 @@ function OurWorks() {
                     <Col m={4} s={12}>
                         <a href="#!" className="red-text text-accent-1" key="1">
                             <Card
-                                className="red lighten-1 white-text center-align"
+                                className="center-align"
                                 closeIcon={<Icon></Icon>}
-                                reveal={<img src={ihh} width="150px" height="80px"/>}
+                                reveal={<img src={ihh} className="responsive-img"/>}
                             >
                                 <>
-                                    <h6>IHH Healthcare Corporate Video</h6>
+                                    <h5>IHH Healthcare Corporate Video</h5>
                                     <p>Adipisicing fugiat est ullamco et ipsum eu labore incididunt voluptate sit culpa culpa aute.</p>
                                 </>
                             </Card>

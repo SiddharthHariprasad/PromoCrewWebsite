@@ -35,7 +35,7 @@ function ContactUs() {
         <div id="main-content">
             <div className="container contactUsPage">
                 <h1>Contact Us</h1>
-                <Card id="contactUsForm" className="from-section">
+                <div id="contactUsForm" className="from-section">
                     <form onSubmit={sendEmail}>
                         {/* <label>Name</label> 
                         <input type="text" name="name" required/> */}
@@ -53,18 +53,35 @@ function ContactUs() {
                         <textarea name="message" rows="4" required/> */}
                         <Textarea id="message" name="message" label="Message" placeholder="Enter Message" validate required/>
                         {/* <input type="submit" value="send"/> */}
-                        <Button id="submitButton" node="button" type="submit" waves="light" value="send" >
+                        <Button id="submitButton" node="button" type="submit" waves="light" value="send" className="red lighten-1">
                                     Submit<Icon right>send</Icon>
                         </Button>
                         <div className="row">{result ? <Result/> : null}</div>
                     </form>
-                </Card>
+                </div>
                 <br />
                 <div>
                     <p className="align-left">
                         {/* heading for contact us section */}
                             {/* links to various contacting options */}
-                            <div>
+                            <Button
+                                href="tel:+919074342615"
+                                node="a"
+                                waves="light"
+                                className="red lighten-1 white-text">
+                                    <Icon left>phone</Icon>
+                                    <span>+919074342615</span>
+                            </Button>
+                            <br /><br />
+                            <Button
+                                href="mailto:connect@promocrew.in"
+                                node="a"
+                                waves="light"
+                                className="red lighten-1 white-text">
+                                    <Icon left>mail</Icon>
+                                    <span>connect@promocrew.in</span>
+                            </Button>
+                            {/* <div>
                                 <a href="tel:+919074342615" className="btn-floating btn-small red darken-3">
                                     <i className="material-icons">phone</i>
                                 </a>&nbsp;
@@ -75,7 +92,7 @@ function ContactUs() {
                                     <i className="material-icons">mail</i>
                                 </a>&nbsp;
                                 <a href="mailto:connect@promocrew.in"><b>Mail :</b> connect@promocrew.in</a>
-                            </div>
+                            </div> */}
                     </p>
                 </div>
             </div>

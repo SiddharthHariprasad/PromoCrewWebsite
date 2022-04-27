@@ -5,7 +5,7 @@ import { CardPanel, Carousel, Col, Parallax, Row } from 'react-materialize';
 function MainPage() {
     return(
         <div id="main-content">
-            <div className="carousel-holder black" id="image-carousel">
+            <div className="carousel-holder red" id="image-carousel">
                 {/* Photo Carousel */}
                 <Carousel carouselId="Carousel-1" options={{ fullWidth: true, fullHeight: true }}>
                     {/* carousel div where the links and images */}
@@ -31,7 +31,7 @@ function MainPage() {
                     {/* first column */}
                     <Col s={12} l={6}>
                         {/* card div to give it card like styling */}
-                        <CardPanel className="card-panel red center-align">
+                        <CardPanel className="card-panel red ligthen-1 center-align">
                             {/* content of the card */}
                             <h3>Lorem Ipsum</h3>
                             <p>
@@ -41,7 +41,7 @@ function MainPage() {
                     </Col>
                     {/* second column */}
                     <Col s={12} l={6}>
-                        <CardPanel className="card-panel red center-align">
+                        <CardPanel className="card-panel red ligthen-1 center-align">
                             <h3>Lorem Ipsum</h3>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem deserunt dignissimos dolores fuga. Quidem, id, temporibus esse quos officiis ipsam explicabo sit tempora labore sapiente provident sint quis iste est.
