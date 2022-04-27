@@ -1,6 +1,4 @@
-import banner3 from './images/banner3.png';
-import banner4 from './images/banner4.png';
-import { CardPanel, Carousel, Col, Parallax, Row } from 'react-materialize';
+import { CardPanel, Carousel, Col, Row } from 'react-materialize';
 
 function MainPage() {
     return(

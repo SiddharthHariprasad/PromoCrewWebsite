@@ -1,4 +1,4 @@
-import { Card, Icon, Row, Col, CardTitle} from 'react-materialize';
+import { Card, Icon, Row, Col} from 'react-materialize';
 import kfc from './images/kfc.png';
 import titan from './images/titan.png';
 import fastrack from './images/fastrack.png';

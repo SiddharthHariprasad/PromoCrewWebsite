@@ -74,8 +74,7 @@ nav .brand-logo {
 }
 
 .carousel-image-1 {
-    background-image: url("./components/images/banner2.gif");
-    height: 100%;
+    background-image: url("./components/images/banner1.gif");
     background-size: cover;
     background-position: center;
 }
@@ -163,12 +162,22 @@ section > div > a {
     border:none;
 }
 
-@media screen {
-    .parallax-container {
-        position: relative;
-        overflow: hidden;
-        height: 200px;
-      }   
+@media screen and (max-width: 400px) {
+    .carousel-image-1 {
+        background-image: url("./components/images/banner2.gif");
+        background-size: cover;
+        background-position: center;
+    }
+    
+}
+
+@media screen and (min-width: 400px) and (max-width: 700px) {
+    .carousel-image-1 {
+        background-image: url("./components/images/banner3.gif");
+        background-size: cover;
+        background-position: center;
+    }
+    
 }
 
 @media screen and (min-width: 0px) {
