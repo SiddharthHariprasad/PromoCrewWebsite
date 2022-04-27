@@ -7,7 +7,7 @@ function MainPage() {
         <div id="main-content">
             <div className="carousel-holder red" id="image-carousel">
                 {/* Photo Carousel */}
-                <Carousel carouselId="Carousel-1" options={{ fullWidth: true, fullHeight: true }}>
+                <Carousel carouselId="Carousel-1" options={{ fullWidth: true}}>
                     {/* carousel div where the links and images */}
                     <div className="black carousel-image-1">
                         <a href="/branding" className="carousel-link" alt="go to branding">.</a>
