@@ -18,8 +18,8 @@ function OurWorks() {
                                 <a href="#!" className="red-text text-accent-1" key="1">
                                     <Card
                                         className="center-align"
-                                        closeIcon={<Icon></Icon>}
-                                        reveal={<img src={kfc} className="responsive-img"/>}
+                                        closeIcon={<></>}
+                                        reveal={<img src={kfc} className="responsive-img" alt="kfc"/>}
                                     >
                                         <>
                                                 <h5>KFC Motion Graphic Campaign</h5>
@@ -32,8 +32,8 @@ function OurWorks() {
                                 <a href="#!" className="red-text text-accent-1" key="1">
                                     <Card
                                         className="center-align"
-                                        closeIcon={<Icon></Icon>}
-                                        reveal={<img src={titan} className="responsive-img"/>}
+                                        closeIcon={<></>}
+                                        reveal={<img src={titan} className="responsive-img"  alt="kfc"/>}
                                     >
                                         <>
                                             <h5>Titan Solidarity</h5>
@@ -46,8 +46,8 @@ function OurWorks() {
                                 <a href="#!" className="red-text text-accent-1" key="1">
                                     <Card
                                         className="center-align"
-                                        closeIcon={<Icon></Icon>}
-                                        reveal={<img src={fastrack} className="responsive-img"/>}
+                                        closeIcon={<></>}
+                                        reveal={<img src={fastrack} className="responsive-img"  alt="kfc"/>}
                                     >
                                         <>
                                             <h5>Fastrack Print Marketing Bangalore</h5>
@@ -62,8 +62,8 @@ function OurWorks() {
                                 <a href="#!" className="red-text text-accent-1" key="1">
                                     <Card
                                         className="center-align"
-                                        closeIcon={<Icon></Icon>}
-                                        reveal={<img src={uber} className="responsive-img"/>}
+                                        closeIcon={<></>}
+                                        reveal={<img src={uber} className="responsive-img"  alt="kfc"/>}
                                     >
                                     <h5>Uber Social Media Ad Campaign</h5>
                                     <p>Adipisicing fugiat est ullamco et ipsum eu labore incididunt voluptate sit culpa culpa aute.</p>
@@ -74,8 +74,8 @@ function OurWorks() {
                                 <a href="#!" className="red-text text-accent-1" key="1">
                                     <Card
                                         className="center-align"
-                                        closeIcon={<Icon></Icon>}
-                                        reveal={<img src={cadbury} className="responsive-img"/>}
+                                        closeIcon={<></>}
+                                        reveal={<img src={cadbury} className="responsive-img"  alt="kfc"/>}
                                     >
                                         <>
                                             <h5>Cadbury Valentine Snippet</h5>
@@ -88,8 +88,8 @@ function OurWorks() {
                                 <a href="#!" className="red-text text-accent-1" key="1">
                                     <Card
                                         className="center-align"
-                                        closeIcon={<Icon></Icon>}
-                                        reveal={<img src={ihh} className="responsive-img"/>}
+                                        closeIcon={<></>}
+                                        reveal={<img src={ihh} className="responsive-img"  alt="kfc"/>}
                                     >
                                         <>
                                             <h5>IHH Healthcare Corporate Video</h5>

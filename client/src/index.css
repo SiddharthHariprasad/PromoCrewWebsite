@@ -168,6 +168,15 @@ section > div > a {
     border:none;
 }
 
+#box-shadow {
+    background-color: rgba(255, 255, 255, 0.63);
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
 @media screen and (max-width: 400px) {
     .carousel-image-1 {
         background-image: url("./components/images/banner2.gif");
@@ -319,13 +328,4 @@ section > div > a {
         height: 300px;
     }
     
-}
-
-#box-shadow {
-    background-color: rgba(255, 255, 255, 0.63);
-    border-radius: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-left: 100px;
-    margin-right: 100px;
 }
