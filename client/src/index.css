@@ -327,5 +327,7 @@ section > div > a {
     background-color: rgba(255, 255, 255, 0.63);
     border-radius: 20px;
     padding-top: 10px;
-    padding-BOTTOM: 10px;
+    padding-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
 }

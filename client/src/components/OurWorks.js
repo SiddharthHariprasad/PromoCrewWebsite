@@ -101,7 +101,8 @@ function OurWorks() {
                         </Row>
                     </div>
                 </div>
-
+                
+                <h2>partnerships</h2>
                 <div className='partnerships'>
 
                 </div>
