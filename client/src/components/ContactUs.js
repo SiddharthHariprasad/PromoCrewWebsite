@@ -32,6 +32,7 @@ function ContactUs() {
 
 
     return(
+        
         <div id="main-content">
             <div className="container contactUsPage">
                 <h1>Contact Us</h1>
