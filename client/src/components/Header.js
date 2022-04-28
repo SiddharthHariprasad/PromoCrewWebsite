@@ -1,6 +1,6 @@
 import React from 'react';
 import { Icon, Navbar, NavItem } from 'react-materialize';
-import logo from './images/logo.png';
+import logo from './images/logo-pc.png';
 const Header = () => {
     return(
         <header>
@@ -9,7 +9,7 @@ const Header = () => {
                 <Navbar 
                     className="red lighten-1" 
                     alignLinks="right" 
-                    brand={<a href="/" className="brand-logo white-text"><img src={logo} alt="logo" height="10" width="50"></img> PromoCrew</a>}
+                    brand={<a href="/" className="brand-logo white-text"><img src={logo} alt="logo" height="40px" width="100px"></img> PromoCrew</a>}
                     id="mobile-nav"
                     menuIcon={<Icon className="red-text text-accent-1">menu</Icon>}
                     options={{ 

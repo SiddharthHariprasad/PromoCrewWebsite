@@ -134,6 +134,11 @@ section > div > a {
 .ourWorksPage {
     background: url(./components/images/prism.svg) no-repeat center center fixed; 
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+
     padding: 50px;
 }
 
@@ -158,6 +163,10 @@ section > div > a {
     border-bottom-color: #ff4b4b;
     border-right-color: #ff4b4b;
     box-shadow: 3px 3px #e7e6e6;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+
     
 }
 
@@ -324,10 +333,50 @@ section > div > a {
 }
 
 #box-shadow {
+    display: flex;
     background-color: rgba(255, 255, 255, 0.63);
     border-radius: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-left: 100px;
     margin-right: 100px;
+    margin-bottom: 100px;
+    min-width: 80px;
+    width: 70vw;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.partnerships{
+    background-color: rgba(255, 255, 255, 0.63);
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: center;
+    
+     
+}
+
+.p-logo{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.main-content {
+    background-image: url("./components/images/constellation.svg");
+    background-size: cover;
+}
+
+
+.flex-container{
+    display: flex;
 }
