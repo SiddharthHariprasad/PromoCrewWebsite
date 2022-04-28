@@ -9,7 +9,7 @@ const Header = () => {
                 <Navbar 
                     className="red lighten-1" 
                     alignLinks="right" 
-                    brand={<a href="/" className="brand-logo white-text"><img src={logo} alt="logo" height="40px" width="100px"></img> PromoCrew</a>}
+                    brand={<a href="/" className="brand-logo"><img src={logo} alt="logo" height="30px" /></a>}
                     id="mobile-nav"
                     menuIcon={<Icon className="red-text text-accent-1">menu</Icon>}
                     options={{ 
