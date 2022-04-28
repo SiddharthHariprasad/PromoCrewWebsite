@@ -364,12 +364,9 @@ section > div > a {
 
 .p-logo{
     display: flex;
-
-    align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .main-content {
@@ -380,4 +377,8 @@ section > div > a {
 
 .flex-container{
     display: flex;
+}
+
+.partnership {
+    flex-direction: column;
 }

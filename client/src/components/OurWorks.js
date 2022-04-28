@@ -104,24 +104,24 @@ function OurWorks() {
             </div>
 
 
-            <div className='partnerships'>
-                <h2 className="center">partnerships</h2>
+            <div id="box-shadow" className="partnership">
+                <h2 className="center">Partnerships</h2>
 
                 <div className="p-logo">
-                <Row >
-                    <Col>
-                        <div><img alt="" src={wb} width=" 100px" /></div>
-                    </Col>
-                    <Col>
-                        <div><img alt="" src={wb} width=" 100px"/></div>
-                    </Col>
-                    <Col>
-                        <div><img alt="" src={wb} width=" 100px"/></div>
-                    </Col>
-                    <Col>
-                        <div><img alt="" src={wb} width=" 100px"/></div>
-                    </Col>
-                </Row>
+                    <Row >
+                        <Col>
+                            <div><img alt="" src={wb} width=" 100px" /></div>
+                        </Col>
+                        <Col>
+                            <div><img alt="" src={wb} width=" 100px"/></div>
+                        </Col>
+                        <Col>
+                            <div><img alt="" src={wb} width=" 100px"/></div>
+                        </Col>
+                        <Col>
+                            <div><img alt="" src={wb} width=" 100px"/></div>
+                        </Col>
+                    </Row>
                 </div>
 
             </div>
