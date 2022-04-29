@@ -1,1 +1,0 @@
-export const SECRET_KEY = "Abc@123";

@@ -69,12 +69,10 @@ nav .brand-logo {
 
 #image-carousel {
     max-height: 100vh;
-    margin-top: -64px;
 }
 
 #Carousel-1 {
     height: 100vh;
-    margin-top: -64px;
 }
 
 .carousel-image-1 {
@@ -303,14 +301,6 @@ section > div > a {
     /* display: flex; */
     
 }
-
-
-
-
-
-
-
-
 
 @media screen and (max-width: 400px) {
     .carousel-image-1 {
