@@ -11,19 +11,19 @@ function OurWorks() {
 
     return (
         <div id="ourWorksPageBg" className="ourWorksPage">
-            <div id="box-shadow">
+            <div className="box-shadow">
                 <div id="main-content" className="container">
-                    <h1 className="center">Our Works</h1>
+                    <h1 className="center section-heading">Our Works</h1>
                     <Row>
                         <Col m={4} s={12}>
                             <a href="#!" className="red-text text-accent-1" key="1">
                                 <Card
                                     className="center-align"
                                     closeIcon={<Icon></Icon>}
-                                    reveal={<img src={kfc} className="responsive-img" />}
+                                    reveal={<img src={kfc} className="responsive-img" alt="kfc" />}
                                 >
                                     <>
-                                        <h5>KFC Motion Graphic Campaign</h5>
+                                        <h6>KFC Motion Graphic Campaign</h6>
                                         <p>Here is some more information about this product that is only revealed once clicked on.</p>
                                     </>
                                 </Card>
@@ -34,10 +34,10 @@ function OurWorks() {
                                 <Card
                                     className="center-align"
                                     closeIcon={<Icon></Icon>}
-                                    reveal={<img src={titan} className="responsive-img" />}
+                                    reveal={<img src={titan} className="responsive-img" alt="titan" />}
                                 >
                                     <>
-                                        <h5>Titan Solidarity</h5>
+                                        <h6>Titan Solidarity</h6>
                                         <p>Adipisicing fugiat est ullamco et ipsum eu labore incididunt voluptate sit culpa culpa aute.</p>
                                     </>
                                 </Card>
@@ -48,10 +48,10 @@ function OurWorks() {
                                 <Card
                                     className="center-align"
                                     closeIcon={<Icon></Icon>}
-                                    reveal={<img src={fastrack} className="responsive-img" />}
+                                    reveal={<img src={fastrack} className="responsive-img" alt="fastrack" />}
                                 >
                                     <>
-                                        <h5>Fastrack Print Marketing Bangalore</h5>
+                                        <h6>Fastrack Print Marketing Bangalore</h6>
                                         <p>Adipisicing fugiat est ullamco et ipsum eu labore incididunt voluptate sit culpa culpa aute.</p>
                                     </>
                                 </Card>
@@ -62,9 +62,9 @@ function OurWorks() {
                                 <Card
                                     className="center-align"
                                     closeIcon={<Icon></Icon>}
-                                    reveal={<img src={uber} className="responsive-img" />}
+                                    reveal={<img src={uber} className="responsive-img" alt="uber" />}
                                 >
-                                    <h5>Uber Social Media Ad Campaign</h5>
+                                    <h6>Uber Social Media Ad Campaign</h6>
                                     <p>Adipisicing fugiat est ullamco et ipsum eu labore incididunt voluptate sit culpa culpa aute.</p>
                                 </Card>
                             </a>
@@ -74,10 +74,10 @@ function OurWorks() {
                                 <Card
                                     className="center-align"
                                     closeIcon={<Icon></Icon>}
-                                    reveal={<img src={cadbury} className="responsive-img" />}
+                                    reveal={<img src={cadbury} className="responsive-img" alt="cadbury" />}
                                 >
                                     <>
-                                        <h5>Cadbury Valentine Snippet</h5>
+                                        <h6>Cadbury Valentine Snippet</h6>
                                         <p>Adipisicing fugiat est ullamco et ipsum eu labore incididunt voluptate sit culpa culpa aute.</p>
                                     </>
                                 </Card>
@@ -88,10 +88,10 @@ function OurWorks() {
                                 <Card
                                     className="center-align"
                                     closeIcon={<Icon></Icon>}
-                                    reveal={<img src={ihh} className="responsive-img" />}
+                                    reveal={<img src={ihh} className="responsive-img" alt="ihh" />}
                                 >
                                     <>
-                                        <h5>IHH Healthcare Corporate Video</h5>
+                                        <h6>IHH Healthcare Corporate Video</h6>
                                         <p>Adipisicing fugiat est ullamco et ipsum eu labore incididunt voluptate sit culpa culpa aute.</p>
                                     </>
                                 </Card>
@@ -101,27 +101,33 @@ function OurWorks() {
                 </div>
             </div>
 
-            <div id="box-shadow">
+            <div className="box-shadow">
                 <div id="main-content" className="container">
-                    <h1 className="center">Patnerships</h1>
+                    <h1 className="center section-heading">Patnerships</h1>
                     <Row className="center-align">
-                        <Col l={2} m={3} s={12}>
-                            <img alt="logo" src={wb} width=" 100px" />
+                        <Col l={3} m={4} s={12}>
+                            <img alt="logo" src={wb} width=" 130px" className="partnership-logo" />
                         </Col>
-                        <Col l={2} m={3} s={12}>
-                            <img alt="logo" src={wb} width=" 100px" />
+                        <Col l={3} m={4} s={12}>
+                            <img alt="logo" src={wb} width=" 130px" className="partnership-logo" />
                         </Col>
-                        <Col l={2} m={3} s={12}>
-                            <img alt="logo" src={wb} width=" 100px" />
+                        <Col l={3} m={4} s={12}>
+                            <img alt="logo" src={wb} width=" 130px" className="partnership-logo" />
                         </Col>
-                        <Col l={2} m={3} s={12}>
-                            <img alt="logo" src={wb} width=" 100px" />
+                        <Col l={3} m={4} s={12}>
+                            <img alt="logo" src={wb} width=" 130px" className="partnership-logo" />
                         </Col>
-                        <Col l={2} m={3} s={12}>
-                            <img alt="logo" src={wb} width=" 100px" />
+                        <Col l={3} m={4} s={12}>
+                            <img alt="logo" src={wb} width=" 130px" className="partnership-logo" />
                         </Col>
-                        <Col l={2} m={3} s={12}>
-                            <img alt="logo" src={wb} width=" 100px" />
+                        <Col l={3} m={4} s={12}>
+                            <img alt="logo" src={wb} width=" 130px" className="partnership-logo" />
+                        </Col>
+                        <Col l={3} m={4} s={12}>
+                            <img alt="logo" src={wb} width=" 130px" className="partnership-logo" />
+                        </Col>
+                        <Col l={3} m={4} s={12}>
+                            <img alt="logo" src={wb} width=" 130px" className="partnership-logo" />
                         </Col>
                     </Row>
                 </div>

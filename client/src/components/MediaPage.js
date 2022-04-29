@@ -6,7 +6,7 @@ function MediaPage() {
     return(
 
         <div id="mediaPageBg" className="mediaPage">
-            <div id="box-shadow">
+            <div className="box-shadow">
                 <div id="main-content" className="container">
                     <h1 className="center">Media and Press</h1>
                     <Row>
