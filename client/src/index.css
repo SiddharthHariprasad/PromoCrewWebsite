@@ -203,25 +203,6 @@ section > div > a {
     margin-right: auto;
 }
 
-.partnerships{
-    background-color: rgba(255, 255, 255, 0.63);
-    border-radius: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-left: 100px;
-    margin-right: 100px;
-    justify-content: center;
-    
-     
-}
-
-/* .p-logo{
-    display: flex;
-    justify-content: space-evenly;
-    margin-left: auto;
-    margin-right: auto;
-} */
-
 .imageDiv {
     padding: 0;
     max-width: fit-content;

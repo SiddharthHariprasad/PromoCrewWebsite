@@ -8,7 +8,7 @@ function MainPage() {
                 <Carousel carouselId="Carousel-1" options={{ fullWidth: true}}>
                     {/* carousel div where the links and images */}
                     <div className="black carousel-image-1">
-                        <a href="/branding" className="carousel-link" alt="go to branding">.</a>
+                        <a href="/Services" className="carousel-link" alt="go to branding">.</a>
                     </div>
                 </Carousel>
             </div>
