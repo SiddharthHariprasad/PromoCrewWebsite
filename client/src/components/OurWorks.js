@@ -1,112 +1,152 @@
-import { Card, Icon, Row, Col} from 'react-materialize';
+import { Card, Icon, Row, Col } from 'react-materialize';
 import kfc from './images/kfc.png';
 import titan from './images/titan.png';
 import fastrack from './images/fastrack.png';
 import uber from './images/uber.png';
 import cadbury from './images/cadbury.png';
 import ihh from './images/ihh.png';
+import wb from './images/world-bank.png';
 
 function OurWorks() {
 
-    return(
-            <div id="ourWorksPageBg" className="ourWorksPage">
-                <div id="box-shadow">
-                    <div id="main-content" className="container">
-                        <h1 className="center">Our Works</h1>
-                        <Row>
-                            <Col m={4} s={12}>
-                                <a href="#!" className="red-text text-accent-1" key="1">
-                                    <Card
-                                        className="center-align"
-                                        closeIcon={<></>}
-                                        reveal={<img src={kfc} className="responsive-img" alt="kfc"/>}
-                                    >
-                                        <>
-                                                <h5>KFC Motion Graphic Campaign</h5>
-                                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                                        </>
-                                    </Card>
-                                </a>
-                            </Col>
-                            <Col m={4} s={12}>
-                                <a href="#!" className="red-text text-accent-1" key="1">
-                                    <Card
-                                        className="center-align"
-                                        closeIcon={<></>}
-                                        reveal={<img src={titan} className="responsive-img"  alt="kfc"/>}
-                                    >
-                                        <>
-                                            <h5>Titan Solidarity</h5>
-                                            <p>Adipisicing fugiat est ullamco et ipsum eu labore incididunt voluptate sit culpa culpa aute.</p>
-                                        </>
-                                    </Card>
-                                </a>
-                            </Col>
-                            <Col m={4} s={12}>
-                                <a href="#!" className="red-text text-accent-1" key="1">
-                                    <Card
-                                        className="center-align"
-                                        closeIcon={<></>}
-                                        reveal={<img src={fastrack} className="responsive-img"  alt="kfc"/>}
-                                    >
-                                        <>
-                                            <h5>Fastrack Print Marketing Bangalore</h5>
-                                            <p>Adipisicing fugiat est ullamco et ipsum eu labore incididunt voluptate sit culpa culpa aute.</p>
-                                        </>
+    return (
+        <div id="ourWorksPageBg" className="ourWorksPage">
+            <div id="box-shadow">
+                <div id="main-content" className="container">
+                    <h1 className="center">Our Works</h1>
+                    <Row>
+                        <Col m={4} s={12}>
+                            <a href="#!" className="red-text text-accent-1" key="1">
+                                <Card
+                                    className="center-align"
+                                    closeIcon={<Icon></Icon>}
+                                    reveal={<img src={kfc} className="responsive-img" />}
+                                >
+                                    <>
+                                        <h5>KFC Motion Graphic Campaign</h5>
+                                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                    </>
                                 </Card>
                             </a>
-                            </Col>
-                        </Row>
-                        <Row>
-                            <Col m={4} s={12}>
-                                <a href="#!" className="red-text text-accent-1" key="1">
-                                    <Card
-                                        className="center-align"
-                                        closeIcon={<></>}
-                                        reveal={<img src={uber} className="responsive-img"  alt="kfc"/>}
-                                    >
+                        </Col>
+                        <Col m={4} s={12}>
+                            <a href="#!" className="red-text text-accent-1" key="1">
+                                <Card
+                                    className="center-align"
+                                    closeIcon={<Icon></Icon>}
+                                    reveal={<img src={titan} className="responsive-img" />}
+                                >
+                                    <>
+                                        <h5>Titan Solidarity</h5>
+                                        <p>Adipisicing fugiat est ullamco et ipsum eu labore incididunt voluptate sit culpa culpa aute.</p>
+                                    </>
+                                </Card>
+                            </a>
+                        </Col>
+                        <Col m={4} s={12}>
+                            <a href="#!" className="red-text text-accent-1" key="1">
+                                <Card
+                                    className="center-align"
+                                    closeIcon={<Icon></Icon>}
+                                    reveal={<img src={fastrack} className="responsive-img" />}
+                                >
+                                    <>
+                                        <h5>Fastrack Print Marketing Bangalore</h5>
+                                        <p>Adipisicing fugiat est ullamco et ipsum eu labore incididunt voluptate sit culpa culpa aute.</p>
+                                    </>
+                                </Card>
+                            </a>
+                        </Col>
+                        <Col m={4} s={12}>
+                            <a href="#!" className="red-text text-accent-1" key="1">
+                                <Card
+                                    className="center-align"
+                                    closeIcon={<Icon></Icon>}
+                                    reveal={<img src={uber} className="responsive-img" />}
+                                >
                                     <h5>Uber Social Media Ad Campaign</h5>
                                     <p>Adipisicing fugiat est ullamco et ipsum eu labore incididunt voluptate sit culpa culpa aute.</p>
-                                    </Card>
-                                </a>
-                            </Col>
-                            <Col m={4} s={12}>
-                                <a href="#!" className="red-text text-accent-1" key="1">
-                                    <Card
-                                        className="center-align"
-                                        closeIcon={<></>}
-                                        reveal={<img src={cadbury} className="responsive-img"  alt="kfc"/>}
-                                    >
-                                        <>
-                                            <h5>Cadbury Valentine Snippet</h5>
-                                            <p>Adipisicing fugiat est ullamco et ipsum eu labore incididunt voluptate sit culpa culpa aute.</p>
-                                        </>
-                                    </Card>
-                                </a>
-                            </Col>
-                            <Col m={4} s={12}>
-                                <a href="#!" className="red-text text-accent-1" key="1">
-                                    <Card
-                                        className="center-align"
-                                        closeIcon={<></>}
-                                        reveal={<img src={ihh} className="responsive-img"  alt="kfc"/>}
-                                    >
-                                        <>
-                                            <h5>IHH Healthcare Corporate Video</h5>
-                                            <p>Adipisicing fugiat est ullamco et ipsum eu labore incididunt voluptate sit culpa culpa aute.</p>
-                                        </>
-                                    </Card>
-                                </a>
-                            </Col>
-                        </Row>
-                    </div>
-                </div>
-                
-                <h2>partnerships</h2>
-                <div className='partnerships'>
-
+                                </Card>
+                            </a>
+                        </Col>
+                        <Col m={4} s={12}>
+                            <a href="#!" className="red-text text-accent-1" key="1">
+                                <Card
+                                    className="center-align"
+                                    closeIcon={<Icon></Icon>}
+                                    reveal={<img src={cadbury} className="responsive-img" />}
+                                >
+                                    <>
+                                        <h5>Cadbury Valentine Snippet</h5>
+                                        <p>Adipisicing fugiat est ullamco et ipsum eu labore incididunt voluptate sit culpa culpa aute.</p>
+                                    </>
+                                </Card>
+                            </a>
+                        </Col>
+                        <Col m={4} s={12}>
+                            <a href="#!" className="red-text text-accent-1" key="1">
+                                <Card
+                                    className="center-align"
+                                    closeIcon={<Icon></Icon>}
+                                    reveal={<img src={ihh} className="responsive-img" />}
+                                >
+                                    <>
+                                        <h5>IHH Healthcare Corporate Video</h5>
+                                        <p>Adipisicing fugiat est ullamco et ipsum eu labore incididunt voluptate sit culpa culpa aute.</p>
+                                    </>
+                                </Card>
+                            </a>
+                        </Col>
+                    </Row>
                 </div>
             </div>
+
+            <div id="box-shadow">
+                <div id="main-content" className="container">
+                    <h1 className="center">Patnerships</h1>
+                    <Row className="center-align">
+                        <Col l={2} m={3} s={12}>
+                            <img alt="logo" src={wb} width=" 100px" />
+                        </Col>
+                        <Col l={2} m={3} s={12}>
+                            <img alt="logo" src={wb} width=" 100px" />
+                        </Col>
+                        <Col l={2} m={3} s={12}>
+                            <img alt="logo" src={wb} width=" 100px" />
+                        </Col>
+                        <Col l={2} m={3} s={12}>
+                            <img alt="logo" src={wb} width=" 100px" />
+                        </Col>
+                        <Col l={2} m={3} s={12}>
+                            <img alt="logo" src={wb} width=" 100px" />
+                        </Col>
+                        <Col l={2} m={3} s={12}>
+                            <img alt="logo" src={wb} width=" 100px" />
+                        </Col>
+                    </Row>
+                </div>
+            </div>
+
+            {/* <div id="box-shadow" className="partnership">
+                <h2 className="center">Partnerships</h2>
+                <div className="p-logo">
+                    <Row >
+                        <Col>
+                            <div><img alt="" src={wb} width=" 100px" /></div>
+                        </Col>
+                        <Col>
+                            <div><img alt="" src={wb} width=" 100px"/></div>
+                        </Col>
+                        <Col>
+                            <div><img alt="" src={wb} width=" 100px"/></div>
+                        </Col>
+                        <Col>
+                            <div><img alt="" src={wb} width=" 100px"/></div>
+                        </Col>
+                    </Row>
+                </div>
+            </div> */}
+        </div>
     );
 }
 

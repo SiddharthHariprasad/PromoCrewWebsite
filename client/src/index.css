@@ -25,6 +25,7 @@ p, footer a,.footer-copyright {
 }
 
 .aboutUsPage {
+    
     align-items: center;
     text-align: center;
     padding-bottom: 30%;
@@ -59,6 +60,7 @@ nav ul a {
 nav .brand-logo {
     font-size: 2.3rem;
 }
+
 
 .carousel-holder {
     width: 100%;
@@ -129,10 +131,22 @@ section > div > a {
     /* height: 400px; */
 }
 
-.ourWorksPage {
-    background: url(./components/images/prism.svg) no-repeat center center fixed; 
+.mediaPage {
+    background: url(./components/images/pattern.svg) no-repeat center center fixed; 
     background-size: cover;
     padding: 50px;
+    align-items: center;
+}
+
+.ourWorksPage {
+    background: url(./components/images/pattern.svg) no-repeat center center fixed; 
+    background-size: cover;
+    padding: 50px;
+    align-items: center;
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: center; */
+    /* width: 100vw; */
 }
 
 .ourWorksPage .card .card-content ~ .card-reveal {
@@ -156,6 +170,10 @@ section > div > a {
     border-bottom-color: #ff4b4b;
     border-right-color: #ff4b4b;
     box-shadow: 3px 3px #e7e6e6;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+
     
 }
 
@@ -169,12 +187,119 @@ section > div > a {
 }
 
 #box-shadow {
+    /* display: flex; */
     background-color: rgba(255, 255, 255, 0.63);
     border-radius: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-left: 100px;
     margin-right: 100px;
+    margin-bottom: 100px;
+    min-width: 80px;
+    width: 70vw;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.partnerships{
+    background-color: rgba(255, 255, 255, 0.63);
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: center;
+    
+     
+}
+
+/* .p-logo{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+.imageDiv {
+    padding: 0;
+    max-width: fit-content;
+    margin: 0;
+}
+
+.main-content {
+    background-image: url("./components/images/constellation.svg");
+    background-size: cover;
+}
+
+
+/* .flex-container{
+    display: flex;
+}
+
+.partnership {
+    flex-direction: column;
+} */
+
+.about-bg {
+
+    background: url(./components/images/pattern.svg) no-repeat center center; 
+    background-size: cover;
+    /* display: flex; */
+    /* flex-direction: column; */
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+
+    padding: 50px;
+
+}
+
+.team{
+
+    
+    background: url(./components/images/prism.svg) no-repeat center center; 
+    background-size: cover;
+    /* display: flex; */
+    /* flex-direction: column; */
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+
+    padding: 50px;
+
+
+}
+
+/* media */
+
+.m-container{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    
+    margin-top: 10%;
+    background-color: rgba(255, 255, 255, 0.63);
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    min-width: 80px;
+    width: 70vw;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.media-bg {
+    background: url(./components/images/prism.svg) no-repeat fixed center center; 
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    /* display: flex; */
+    
 }
 
 @media screen and (max-width: 400px) {
