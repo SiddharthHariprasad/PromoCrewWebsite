@@ -126,26 +126,6 @@ function OurWorks() {
                     </Row>
                 </div>
             </div>
-
-            {/* <div id="box-shadow" className="partnership">
-                <h2 className="center">Partnerships</h2>
-                <div className="p-logo">
-                    <Row >
-                        <Col>
-                            <div><img alt="" src={wb} width=" 100px" /></div>
-                        </Col>
-                        <Col>
-                            <div><img alt="" src={wb} width=" 100px"/></div>
-                        </Col>
-                        <Col>
-                            <div><img alt="" src={wb} width=" 100px"/></div>
-                        </Col>
-                        <Col>
-                            <div><img alt="" src={wb} width=" 100px"/></div>
-                        </Col>
-                    </Row>
-                </div>
-            </div> */}
         </div>
     );
 }
