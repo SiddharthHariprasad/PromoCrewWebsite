@@ -57,8 +57,6 @@ function OurWorks() {
                                 </Card>
                             </a>
                         </Col>
-                    </Row>
-                    <Row>
                         <Col m={4} s={12}>
                             <a href="#!" className="red-text text-accent-1" key="1">
                                 <Card
@@ -103,10 +101,34 @@ function OurWorks() {
                 </div>
             </div>
 
+            <div id="box-shadow">
+                <div id="main-content" className="container">
+                    <h1 className="center">Patnerships</h1>
+                    <Row className="center-align">
+                        <Col l={2} m={3} s={12}>
+                            <img alt="logo" src={wb} width=" 100px" />
+                        </Col>
+                        <Col l={2} m={3} s={12}>
+                            <img alt="logo" src={wb} width=" 100px" />
+                        </Col>
+                        <Col l={2} m={3} s={12}>
+                            <img alt="logo" src={wb} width=" 100px" />
+                        </Col>
+                        <Col l={2} m={3} s={12}>
+                            <img alt="logo" src={wb} width=" 100px" />
+                        </Col>
+                        <Col l={2} m={3} s={12}>
+                            <img alt="logo" src={wb} width=" 100px" />
+                        </Col>
+                        <Col l={2} m={3} s={12}>
+                            <img alt="logo" src={wb} width=" 100px" />
+                        </Col>
+                    </Row>
+                </div>
+            </div>
 
-            <div id="box-shadow" className="partnership">
+            {/* <div id="box-shadow" className="partnership">
                 <h2 className="center">Partnerships</h2>
-
                 <div className="p-logo">
                     <Row >
                         <Col>
@@ -123,8 +145,7 @@ function OurWorks() {
                         </Col>
                     </Row>
                 </div>
-
-            </div>
+            </div> */}
         </div>
     );
 }
