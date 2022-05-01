@@ -4,10 +4,10 @@ import logo from './images/logo-pc.png';
 const Header = () => {
     return(
         <header>
-            <div className="red lighten-1" style={{'padding': '0% 5%'}}>
+            <div className="" style={{'padding': '0% 5%'}}>
                 {/* Nav to hold the navbar */}
                 <Navbar 
-                    className="red lighten-1" 
+                    className="navbar" 
                     alignLinks="right" 
                     brand={<a href="/" className="brand-logo"><img src={logo} alt="logo" height="30px" /></a>}
                     id="mobile-nav"

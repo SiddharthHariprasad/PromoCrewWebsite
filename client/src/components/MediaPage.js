@@ -1,5 +1,5 @@
 import { Row, Col } from 'react-materialize';
-import m1 from './images/world-bank.png'
+import dh from './images/deccanherald.png'
 
 
 function MediaPage() {
@@ -12,7 +12,7 @@ function MediaPage() {
                     <Row>
                         <Col>
                             <div>
-                                <img src={m1} alt="logo" width="50%"/>
+                                <img src={dh} alt="logo" width="50%"/>
                                 <h3>Deccan Herald</h3>
                             </div>
                         </Col>
@@ -30,7 +30,7 @@ function MediaPage() {
         //             <div className='articles'>
         //                 <Row>
         //                     <Col>
-        //                         <div><img src={m1}/> <h3>Deccan Herald</h3></div>
+        //                         <div><img src={dh}/> <h3>Deccan Herald</h3></div>
         //                     </Col>
         //                 </Row>
 

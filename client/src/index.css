@@ -14,6 +14,22 @@ html {
     font-family: 'Caveat', cursive;
 }
 
+header, .navbar {
+    background-color: #ff0000;
+}
+
+footer a,.footer-copyright {
+    background-color: #ff0000; 
+}
+
+.page-footer, .footer-copyright {
+    background-color: #ff0000;
+}
+
+.footer-btn {
+    background-color: #5a0000;
+}
+
 p, footer a,.footer-copyright {
     font-family: 'Roboto', sans-serif; 
 }
@@ -25,20 +41,13 @@ p, footer a,.footer-copyright {
 }
 
 .aboutUsPage {
-    
     align-items: center;
     text-align: center;
-    /* padding-bottom: 30%; */
 }
 
 .contactUsPage {
     align-items: center;
     text-align: center;
-    /* padding-bottom: 30%; */
-}
-
-#contactUsForm {
-    padding: 2%;   
 }
 
 .sidenav {
@@ -51,6 +60,22 @@ hr{
     background-color: #ff4b4b;
     border: none;
 }
+
+.about-bg {
+    /* background: url(./components/images/pattern.svg) no-repeat center center; */
+    background-color:#ff0000;
+    background-size: cover;
+    height: 100vh;
+    padding: 50px;
+    color: #e7e6e6;
+}
+
+/* .team{
+    background: url(./components/images/prism.svg) no-repeat center center; 
+    background-size: cover;
+    height: 100vh;
+    padding: 50px;
+} */
 
 nav ul a {
     color: white;
@@ -204,21 +229,6 @@ section > div > a {
 .main-content {
     background-image: url("./components/images/constellation.svg");
     background-size: cover;
-}
-
-.about-bg {
-    /* background: url(./components/images/pattern.svg) no-repeat center center; */
-    background-color:#ff4b4b;
-    background-size: cover;
-    height: 100vh;
-    padding: 50px;
-}
-
-.team{
-    background: url(./components/images/prism.svg) no-repeat center center; 
-    background-size: cover;
-    height: 100vh;
-    padding: 50px;
 }
 
 /* media */

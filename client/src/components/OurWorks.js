@@ -5,7 +5,20 @@ import fastrack from './images/fastrack.png';
 import uber from './images/uber.png';
 import cadbury from './images/cadbury.png';
 import ihh from './images/ihh.png';
-import wb from './images/world-bank.png';
+import al from './images/AshokLeyland.png';
+import ck from './images/Chicking.png';
+import d from './images/damro.png';
+import dc from './images/Duracell.png';
+import ey from './images/EY.png';
+import cs from './images/convosight.png';
+import fc from './images/FreeCharge.png';
+import a from './images/asus.png';
+import hp from './images/hp.png';
+import i from './images/indusind.png';
+import hero from './images/Hero.png';
+import ff from './images/filmfare.png';
+
+
 
 function OurWorks() {
 
@@ -106,28 +119,44 @@ function OurWorks() {
                     <h1 className="center section-heading">Patnerships</h1>
                     <Row className="center-align">
                         <Col l={3} m={4} s={12}>
-                            <img alt="logo" src={wb} width=" 130px" className="partnership-logo" />
+                            <img alt="logo" src={al} width=" 130px" className="partnership-logo" />
                         </Col>
                         <Col l={3} m={4} s={12}>
-                            <img alt="logo" src={wb} width=" 130px" className="partnership-logo" />
+                            <img alt="logo" src={ck} width=" 130px" className="partnership-logo" />
                         </Col>
                         <Col l={3} m={4} s={12}>
-                            <img alt="logo" src={wb} width=" 130px" className="partnership-logo" />
+                            <img alt="logo" src={d} width=" 130px" className="partnership-logo" />
                         </Col>
                         <Col l={3} m={4} s={12}>
-                            <img alt="logo" src={wb} width=" 130px" className="partnership-logo" />
+                            <img alt="logo" src={dc} width=" 130px" className="partnership-logo" />
+                        </Col>
+                    </Row>
+                    <Row className="center-align">
+                        <Col l={3} m={4} s={12}>
+                            <img alt="logo" src={ey} width=" 130px" className="partnership-logo" />
                         </Col>
                         <Col l={3} m={4} s={12}>
-                            <img alt="logo" src={wb} width=" 130px" className="partnership-logo" />
+                            <img alt="logo" src={cs} width=" 130px" className="partnership-logo" />
                         </Col>
                         <Col l={3} m={4} s={12}>
-                            <img alt="logo" src={wb} width=" 130px" className="partnership-logo" />
+                            <img alt="logo" src={fc} width=" 130px" className="partnership-logo" />
                         </Col>
                         <Col l={3} m={4} s={12}>
-                            <img alt="logo" src={wb} width=" 130px" className="partnership-logo" />
+                            <img alt="logo" src={a} width=" 130px" className="partnership-logo" />
+                        </Col>
+                    </Row>
+                    <Row className="center-align">
+                        <Col l={3} m={4} s={12}>
+                            <img alt="logo" src={hp} width=" 130px" className="partnership-logo" />
                         </Col>
                         <Col l={3} m={4} s={12}>
-                            <img alt="logo" src={wb} width=" 130px" className="partnership-logo" />
+                            <img alt="logo" src={i} width=" 130px" className="partnership-logo" />
+                        </Col>
+                        <Col l={3} m={4} s={12}>
+                            <img alt="logo" src={hero} width=" 130px" className="partnership-logo" />
+                        </Col>
+                        <Col l={3} m={4} s={12}>
+                            <img alt="logo" src={ff} width=" 130px" className="partnership-logo" />
                         </Col>
                     </Row>
                 </div>
