@@ -18,12 +18,12 @@ function MainPage() {
             {/* Feedback */}
             <section className="container section" id="feedback">
                 {/* new row inside the section for feedback title */}
-                <div className="row center-align">
+                <Row className="center-align">
                     {/* first column full size */}
-                    <div className="col s12">
+                    <Col s={12}>
                         <h2>Testimonials</h2>
-                    </div>
-                </div>
+                    </Col>
+                </Row>
                 {/* new row for feedbacks */}
                 <Row className="center-align">
                     {/* first column */}
