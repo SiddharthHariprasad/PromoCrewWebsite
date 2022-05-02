@@ -24,7 +24,7 @@ const Header = () => {
                     <NavItem href="/Services" className="waves-effect waves-light">Services</NavItem>
                     <NavItem href="/OurWorks" className="waves-effect waves-light">Our Works</NavItem>
                     <NavItem href="/ContactUs" className="waves-effect waves-light">Contact Us</NavItem>
-                    <NavItem href="/Media" className="waves-effect waves-light">Media</NavItem>
+                    {/* <NavItem href="/Media" className="waves-effect waves-light">Media</NavItem> */}
                     <NavItem href="/AboutUs" className="waves-effect waves-light">About Us</NavItem>
                 </Navbar>
             </div>

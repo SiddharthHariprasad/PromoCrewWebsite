@@ -24,12 +24,12 @@ function OurWorks() {
 
     return (
         <div id="ourWorksPageBg" className="ourWorksPage">
-            <div className="box-shadow">
+            <div className="">
                 <div id="main-content" className="container">
                     <h1 className="center section-heading">Our Works</h1>
                     <Row>
                         <Col m={4} s={12}>
-                            <a href="#!" className="red-text text-accent-1" key="1">
+                            <a href="https://www.youtube.com/watch?v=DaUYJXjo9vw" className="worksCard" key="1" target='_blank' rel="noreferrer">
                                 <Card
                                     className="center-align"
                                     closeIcon={<Icon></Icon>}
@@ -43,7 +43,7 @@ function OurWorks() {
                             </a>
                         </Col>
                         <Col m={4} s={12}>
-                            <a href="#!" className="red-text text-accent-1" key="1">
+                            <a href="#!" className="worksCard" key="1" target='_blank' rel="noreferrer">
                                 <Card
                                     className="center-align"
                                     closeIcon={<Icon></Icon>}
@@ -57,7 +57,7 @@ function OurWorks() {
                             </a>
                         </Col>
                         <Col m={4} s={12}>
-                            <a href="#!" className="red-text text-accent-1" key="1">
+                            <a href="#!" className="worksCard" key="1" target='_blank' rel="noreferrer">
                                 <Card
                                     className="center-align"
                                     closeIcon={<Icon></Icon>}
@@ -71,7 +71,7 @@ function OurWorks() {
                             </a>
                         </Col>
                         <Col m={4} s={12}>
-                            <a href="#!" className="red-text text-accent-1" key="1">
+                            <a href="#!" className="worksCard" key="1" target='_blank' rel="noreferrer">
                                 <Card
                                     className="center-align"
                                     closeIcon={<Icon></Icon>}
@@ -83,7 +83,7 @@ function OurWorks() {
                             </a>
                         </Col>
                         <Col m={4} s={12}>
-                            <a href="#!" className="red-text text-accent-1" key="1">
+                            <a href="#!" className="worksCard" key="1" target='_blank' rel="noreferrer">
                                 <Card
                                     className="center-align"
                                     closeIcon={<Icon></Icon>}
@@ -97,7 +97,7 @@ function OurWorks() {
                             </a>
                         </Col>
                         <Col m={4} s={12}>
-                            <a href="#!" className="red-text text-accent-1" key="1">
+                            <a href="#!" className="worksCard" key="1" target='_blank' rel="noreferrer">
                                 <Card
                                     className="center-align"
                                     closeIcon={<Icon></Icon>}

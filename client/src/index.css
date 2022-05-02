@@ -1,17 +1,17 @@
 /* Custom CSS styling */
 
 /* Importing fonts */
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;500&display=swap');
 
 /* fonts can be used using the following CSS rules */
 /* 
-    font-family: 'Caveat', cursive;
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Akshar', sans-serif;
     font-family: 'Roboto', sans-serif; 
 */
 
 html {
-    font-family: 'Caveat', cursive;
+    font-family: 'Akshar', sans-serif;
+    background-color: #e7e6e6;
 }
 
 header, .navbar {
@@ -27,7 +27,7 @@ footer a,.footer-copyright {
 }
 
 .footer-btn {
-    background-color: #5a0000;
+    background-color: #ff0000;
 }
 
 p, footer a,.footer-copyright {
@@ -62,23 +62,16 @@ hr{
 }
 
 .about-bg {
-    /* background: url(./components/images/pattern.svg) no-repeat center center; */
-    background-color:#ff0000;
+    background: url(./components/images/liquid-cheese.svg) no-repeat center center;
+    /* background-color:#ff0000; */
     background-size: cover;
     height: 100vh;
     padding: 50px;
     color: #e7e6e6;
 }
 
-/* .team{
-    background: url(./components/images/prism.svg) no-repeat center center; 
-    background-size: cover;
-    height: 100vh;
-    padding: 50px;
-} */
-
 nav ul a {
-    color: white;
+    color: #e7e6e6;
     font-size: large;
 }
 
@@ -86,6 +79,10 @@ nav .brand-logo {
     font-size: 2.3rem;
 }
 
+.servicesCard {
+    background-color: #ff0000;
+    color: #e7e6e6;
+}
 
 .carousel-holder {
     width: 100%;
@@ -151,20 +148,34 @@ section > div > a {
 
 .card {
     overflow-y: hidden;
-    background-color: #ff4b4b;
-    color: white;
+    background-color: #ff0000;
+    color: #e7e6e6;
     /* height: 400px; */
 }
 
 .mediaPage {
-    background: url(./components/images/pattern.svg) no-repeat center center fixed; 
+    background: url(./components/images/liquid-cheese.svg) no-repeat center center fixed; 
+    background-size: cover;
+    padding: 50px;
+    align-items: center;
+}
+
+.servicesPage {
+    background: url(./components/images/liquid-cheese.svg) no-repeat center center fixed; 
+    background-size: cover;
+    padding: 50px;
+    align-items: center;
+}
+
+.contactPage {
+    background: url(./components/images/liquid-cheese.svg) no-repeat center center fixed; 
     background-size: cover;
     padding: 50px;
     align-items: center;
 }
 
 .ourWorksPage {
-    background: url(./components/images/pattern.svg) no-repeat center center fixed; 
+    background: url(./components/images/liquid-cheese.svg) no-repeat center center fixed; 
     background-size: cover;
     padding: 50px;
     align-items: center;
@@ -175,7 +186,7 @@ section > div > a {
     transform: translateY(0%);
     pointer-events: none;
     transition: transform 0.5s;
-    color: #f75959;
+    color: #ff0000;
 }
 
 .ourWorksPage .card .card-content:active ~ .card-reveal, .card .card-content:hover ~ .card-reveal {
@@ -184,16 +195,16 @@ section > div > a {
 }
 
 .from-section {
-    
     padding: 40px!important;
     border-style: outset;
     border-radius: 20px;
-    border-bottom-color: #ff4b4b;
-    border-right-color: #ff4b4b;
-    box-shadow: 3px 3px #e7e6e6;
+    border-bottom-color: #ff0000;
+    border-right-color: #ff0000;
+    box-shadow: 3px 3px #e7e6e644;
     margin-left: auto;
     margin-right: auto;
     width: 70%;
+    background-color: #e7e6e6;
 }
 
 .button-text {
@@ -206,7 +217,7 @@ section > div > a {
 }
 
 .box-shadow {
-    background-color: rgba(255, 255, 255, 0.63);
+    background-color: rgba(255, 255, 255, 0.4);
     border-radius: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -230,6 +241,10 @@ section > div > a {
     background-image: url("./components/images/constellation.svg");
     background-size: cover;
 }
+
+/* .worksCard {
+    background-color: #ff0000;
+} */
 
 /* media */
 
@@ -262,8 +277,6 @@ section > div > a {
     
     .card {
         overflow-y: hidden;
-        background-color: #ff4b4b;
-        color: white;
         height: 250px;
     }
     
@@ -277,8 +290,6 @@ section > div > a {
     
     .card {
         overflow-y: hidden;
-        background-color: #ff4b4b;
-        color: white;
         height: 300px;
     }
     
@@ -292,8 +303,6 @@ section > div > a {
     
     .card {
         overflow-y: hidden;
-        background-color: #ff4b4b;
-        color: white;
         height: 400px;
     }
     
@@ -306,8 +315,6 @@ section > div > a {
     }
     .card {
         overflow-y: hidden;
-        background-color: #ff4b4b;
-        color: white;
         height: 200px;
     }
     
@@ -321,8 +328,6 @@ section > div > a {
     
     .card {
         overflow-y: hidden;
-        background-color: #ff4b4b;
-        color: white;
         height: 200px;
     }
     
@@ -336,8 +341,6 @@ section > div > a {
     
     .card {
         overflow-y: hidden;
-        background-color: #ff4b4b;
-        color: white;
         height: 200px;
     }
     
@@ -351,8 +354,6 @@ section > div > a {
     
     .card {
         overflow-y: hidden;
-        background-color: #ff4b4b;
-        color: white;
         height: 200px;
     }
     
@@ -366,8 +367,6 @@ section > div > a {
     
     .card {
         overflow-y: hidden;
-        background-color: #ff4b4b;
-        color: white;
         height: 250px;
     }
     
@@ -381,8 +380,6 @@ section > div > a {
     
     .card {
         overflow-y: hidden;
-        background-color: #ff4b4b;
-        color: white;
         height: 300px;
     }
     

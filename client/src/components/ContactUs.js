@@ -33,7 +33,7 @@ function ContactUs() {
 
     return(
         
-        <div id="main-content">
+        <div id="main-content" className="contactPage">
             <div className="container contactUsPage">
                 <h1>Contact Us</h1>
                 <div id="contactUsForm" className="from-section">
@@ -45,7 +45,7 @@ function ContactUs() {
                         <TextInput id="phone" name="phone" label="Phone" placeholder="Enter Phone Number" validate required type='tel'/>
                         <br />
                         <Textarea id="message" name="message" label="Message" placeholder="Enter Message" validate required/>
-                        <Button id="submitButton" node="button" type="submit" waves="light" value="send" className="red lighten-1">
+                        <Button id="submitButton" node="button" type="submit" waves="light" value="send" className="red accent-4 white-text">
                                     Submit<Icon right>send</Icon>
                         </Button>
                         <div className="row">{result ? <Result/> : null}</div>
@@ -60,7 +60,7 @@ function ContactUs() {
                                 href="tel:+919074342615"
                                 node="a"
                                 waves="light"
-                                className="red lighten-1 white-text">
+                                className="red accent-4 white-text">
                                     <Icon left>phone</Icon>
                                     <span className="button-text">+919074342615</span>
                             </Button>
@@ -69,7 +69,7 @@ function ContactUs() {
                                 href="mailto:connect@promocrew.in"
                                 node="a"
                                 waves="light"
-                                className="red lighten-1 white-text">
+                                className="red accent-4 white-text">
                                     <Icon left>mail</Icon>
                                     <span className="button-text">connect@promocrew.in</span>
                             </Button>
