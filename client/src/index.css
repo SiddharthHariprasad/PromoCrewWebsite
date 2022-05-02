@@ -62,8 +62,8 @@ hr{
 }
 
 .about-bg {
-    background: url(./components/images/liquid-cheese.svg) no-repeat center center;
     /* background-color:#ff0000; */
+    background: url(./components/images/liquid-cheese.svg) no-repeat center center;
     background-size: cover;
     height: 100vh;
     padding: 50px;
@@ -99,6 +99,12 @@ nav .brand-logo {
 
 .carousel-image-1 {
     background-image: url("./components/images/banner1.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-image-2 {
+    background-image: url("./components/images/yesthrabanner.png");
     background-size: cover;
     background-position: center;
 }
@@ -237,20 +243,24 @@ section > div > a {
     padding-left: 15px;
 }
 
-.main-content {
-    background-image: url("./components/images/constellation.svg");
+#mainPage {
+    background: url(./components/images/liquid-cheese.svg) no-repeat center center fixed; 
     background-size: cover;
+    padding: 50px;
+    align-items: center;
 }
-
-/* .worksCard {
-    background-color: #ff0000;
-} */
 
 /* media */
 
 @media screen and (max-width: 400px) {
     .carousel-image-1 {
         background-image: url("./components/images/banner2.gif");
+        background-size: cover;
+        background-position: center;
+    }
+
+    .carousel-image-2 {
+        background-image: url("./components/images/yesthrabanner1.png");
         background-size: cover;
         background-position: center;
     }
@@ -263,6 +273,12 @@ section > div > a {
 @media screen and (min-width: 400px) and (max-width: 700px) {
     .carousel-image-1 {
         background-image: url("./components/images/banner3.gif");
+        background-size: cover;
+        background-position: center;
+    }
+
+    .carousel-image-2 {
+        background-image: url("./components/images/yesthrabanner2.png");
         background-size: cover;
         background-position: center;
     }
