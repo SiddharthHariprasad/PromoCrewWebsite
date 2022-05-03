@@ -12,11 +12,9 @@ function MainPage() {
                     </div>
                 </Carousel>
             </div>
-            
+
             <div className="carousel-holder red" id="image-carousel">
-                {/* Photo Carousel */}
                 <Carousel carouselId="Carousel-1" options={{ fullWidth: true}}>
-                    {/* carousel div where the links and images */}
                     <div className="black carousel-image-2">
                         <a href="https://yesthra.com/" className="carousel-link" alt="go to branding">.</a>
                     </div>
@@ -56,6 +54,7 @@ function MainPage() {
                     {/* </Col> */}
                 {/* </Row> */}
             {/* </section> */}
+
         </div>
     );
 }

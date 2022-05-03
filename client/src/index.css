@@ -1,12 +1,12 @@
 /* Custom CSS styling */
 
 /* Importing fonts */
-@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;500&family=Roboto:wght@400;500&display=swap');
 
 /* fonts can be used using the following CSS rules */
 /* 
     font-family: 'Akshar', sans-serif;
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Roboto', sans-serif;
 */
 
 html {
@@ -45,19 +45,40 @@ p, footer a,.footer-copyright {
     text-align: center;
 }
 
+.aboutUsText {
+    font-size: 2em;
+}
+
+.serivcesPage {
+    background: url(./components/images/liquid-cheese.svg) no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    padding: 50px;   
+    align-items: center;
+    text-align: center;
+}
+
 .contactUsPage {
     align-items: center;
     text-align: center;
 }
 
 .sidenav {
-    background-color: #f75959;
-    color: black;
+    background-color: #ff0000;
+    color: #e7e6e6;
+}
+
+.sidenav-trigger {
+    color: #e7e6e6;
+}
+
+.sidenav li>a {
+    color: #e7e6e6;
 }
 
 hr{
     height: 1px;
-    background-color: #ff4b4b;
+    background-color: #ff0000;
     border: none;
 }
 
@@ -112,7 +133,7 @@ nav .brand-logo {
 .carousel-link {
     text-align: center;
     display: block;
-    font-size: 20em;
+    font-size: 50em;
     opacity: 0;
 }
 
@@ -124,61 +145,6 @@ section > div > a {
     color: black;
 }
 
-.card .card-image .card-title {
-    width: 100%;   
-    text-align: center;
-    font-size: 1.5em;
-}
-
-.card .card-reveal {
-    background-color: black;
-    font-size: 1em;
-}
-
-/* Hide scrollbar for Chrome, Safari and Opera */
-.card .card-reveal::-webkit-scrollbar {
-    display: none;
-}
-
-/* Hide scrollbar for IE, Edge and Firefox */
-
-.card .card-reveal{
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-  }
-
-.card-content {
-    font-size: 0.75em;
-    /* height: 400px; */
-}
-
-.card {
-    overflow-y: hidden;
-    background-color: #ff0000;
-    color: #e7e6e6;
-    /* height: 400px; */
-}
-
-.mediaPage {
-    background: url(./components/images/liquid-cheese.svg) no-repeat center center fixed; 
-    background-size: cover;
-    padding: 50px;
-    align-items: center;
-}
-
-.servicesPage {
-    background: url(./components/images/liquid-cheese.svg) no-repeat center center fixed; 
-    background-size: cover;
-    padding: 50px;
-    align-items: center;
-}
-
-.contactPage {
-    background: url(./components/images/liquid-cheese.svg) no-repeat center center fixed; 
-    background-size: cover;
-    padding: 50px;
-    align-items: center;
-}
 
 .ourWorksPage {
     background: url(./components/images/liquid-cheese.svg) no-repeat center center fixed; 
@@ -198,6 +164,66 @@ section > div > a {
 .ourWorksPage .card .card-content:active ~ .card-reveal, .card .card-content:hover ~ .card-reveal {
     display: block;
     transform: translateY(calc(-100% - 1px));
+}
+
+
+.servicesPage {
+    background: url(./components/images/liquid-cheese.svg) no-repeat center center fixed; 
+    background-size: cover;
+    padding: 50px;
+    align-items: center;
+}
+
+.card .card-image .card-title {
+    width: 100%;   
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.card .card-reveal {
+    background-color: black;
+    font-size: .7em;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.card .card-reveal::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.card .card-reveal{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+.card-content {
+    font-size: 0.75em;
+    /* height: 400px; */
+}
+
+.card {
+    overflow-y: hidden;
+    background-color: #ff0000;
+    color: #e7e6e6;
+    /* height: 400px; */
+}
+
+.card .card-image ~ .card-reveal {
+    display: block;
+    transform: translateY(0%);
+    pointer-events: none;
+    transition: transform 0.5s;
+}
+.card .card-image:active ~ .card-reveal, .card .card-image:hover ~ .card-reveal {
+    display: block;
+    transform: translateY(calc(-100% - 1px));
+}
+
+.contactPage {
+    background: url(./components/images/liquid-cheese.svg) no-repeat center center fixed; 
+    background-size: cover;
+    padding: 50px;
+    align-items: center;
 }
 
 .from-section {
@@ -238,7 +264,7 @@ section > div > a {
     margin-right: auto;
 }
 
-.partnership-logo {
+.client-logo {
     padding-right: 15px;
     padding-left: 15px;
 }
@@ -250,9 +276,25 @@ section > div > a {
     align-items: center;
 }
 
+.mediaPage {
+    background: url(./components/images/liquid-cheese.svg) no-repeat center center fixed; 
+    background-size: cover;
+    padding: 50px;
+    align-items: center;
+}
+
 /* media */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 300px) {
+    .carousel-image-2 {
+        background-image: url("./components/images/yesthrabanner3.png");
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 440px) {
     .carousel-image-1 {
         background-image: url("./components/images/banner2.gif");
         background-size: cover;
@@ -260,7 +302,7 @@ section > div > a {
     }
 
     .carousel-image-2 {
-        background-image: url("./components/images/yesthrabanner1.png");
+        background-image: url("./components/images/yesthrabanner2.png");
         background-size: cover;
         background-position: center;
     }
@@ -270,7 +312,7 @@ section > div > a {
     }
 }
 
-@media screen and (min-width: 400px) and (max-width: 700px) {
+@media screen and (min-width: 440px) and (max-width: 900px) {
     .carousel-image-1 {
         background-image: url("./components/images/banner3.gif");
         background-size: cover;
@@ -278,7 +320,7 @@ section > div > a {
     }
 
     .carousel-image-2 {
-        background-image: url("./components/images/yesthrabanner2.png");
+        background-image: url("./components/images/yesthrabanner1.png");
         background-size: cover;
         background-position: center;
     }
@@ -292,10 +334,16 @@ section > div > a {
     }
     
     .card {
-        overflow-y: hidden;
         height: 250px;
     }
+
+    .card .card-reveal {
+        font-size: .75em
+    }
     
+    .worksHeading {
+        font-size: 2em;
+    }
 }
 
 @media screen and (min-width: 400px) {
@@ -305,8 +353,15 @@ section > div > a {
     }
     
     .card {
-        overflow-y: hidden;
         height: 300px;
+    }
+
+    .card .card-reveal {
+        font-size: 1em
+    }
+
+    .worksHeading {
+        font-size: 4em;
     }
     
 }
@@ -318,8 +373,15 @@ section > div > a {
     }
     
     .card {
-        overflow-y: hidden;
         height: 400px;
+    }
+
+    .card .card-reveal {
+        font-size: 1em
+    }
+
+    .worksHeading {
+        font-size: 6em;
     }
     
 }
@@ -330,8 +392,15 @@ section > div > a {
         height: 200px;
     }
     .card {
-        overflow-y: hidden;
         height: 200px;
+    }
+
+    .card .card-reveal {
+        font-size: .55em
+    }
+
+    .worksHeading {
+        font-size: 2.5em;
     }
     
 }
@@ -343,8 +412,15 @@ section > div > a {
     }
     
     .card {
-        overflow-y: hidden;
         height: 200px;
+    }
+
+    .card .card-reveal {
+        font-size: .65em
+    }
+
+    .worksHeading {
+        font-size: 3em;
     }
     
 }
@@ -356,8 +432,11 @@ section > div > a {
     }
     
     .card {
-        overflow-y: hidden;
         height: 200px;
+    }
+
+    .card .card-reveal {
+        font-size: .8em
     }
     
 }
@@ -367,12 +446,23 @@ section > div > a {
         font-size: 0.75em;
         height: 200px;
     }
-    
+
     .card {
-        overflow-y: hidden;
         height: 200px;
     }
+
+    .card .card-reveal {
+        font-size: .55em
+    }
     
+    .serivcesPage {
+        height: 100vh;
+    }
+
+    .worksHeading {
+        font-size: 2em;
+    }
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -382,21 +472,31 @@ section > div > a {
     }
     
     .card {
-        overflow-y: hidden;
         height: 250px;
     }
+
+    .card .card-reveal {
+        font-size: .8em
+    }
     
+    .worksHeading {
+        font-size: 2.8em;
+    }
+
 }
 
-@media screen and (min-width: 1400) {
+@media screen and (min-width: 1400px) {
     .card-content {
         font-size: 0.75em;
         height: 300px;
     }
     
     .card {
-        overflow-y: hidden;
         height: 300px;
+    }
+
+    .card .card-reveal {
+        font-size: 1em
     }
     
 }

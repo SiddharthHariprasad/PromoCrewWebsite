@@ -1,60 +1,102 @@
-import { CardPanel, Row, Col} from 'react-materialize';
+import { Row, Col, Icon, Card, CardTitle} from 'react-materialize';
+import b from './images/branding.png';
+import cd from './images/contentdesign.png';
+import cm from './images/contentmarketing.png';
+import dm from './images/digitalmarketing.png';
+import prs from './images/prservices.png';
 
 
-function OurWorks() {
+function services() {
 
     return(
-        <div id="main-content" className='servicesPage'>
+        <div id="servicesPageBg" className="serivcesPage">
             <div id="main-content" className="container">
                 <h1 className="center">Services</h1>
                 <Row>
-                    <Col m={6} s={12}>
-                        <CardPanel
-                            className="servicesCard center-align">
-                            <h4>Branding</h4>
-                            <p>Voluptate ipsum irure dolore voluptate amet pariatur consectetur. Pariatur pariatur ex ut aliqua. Veniam Lorem laborum ad ullamco elit eiusmod voluptate laborum consectetur velit nostrud veniam sunt minim. Reprehenderit esse nulla exercitation in commodo laborum aliquip non culpa id exercitation. Pariatur laborum id incididunt ea. Mollit commodo excepteur nisi irure voluptate voluptate. Ipsum voluptate culpa nisi eu quis in aute commodo incididunt.</p>
-                        </CardPanel>
+                    <Col l={3} m={4} s={12}>
+                        <Card
+                            className="center-align servicesCard"
+                            closeIcon={<Icon></Icon>}
+                            header={<CardTitle image={b} reveal waves="light"/>}
+                            reveal={
+                                <>
+                                    <h6>Branding</h6>
+                                    <p>
+                                        We offer all services in building a brand identity and brand presence for your product or service.
+                                    </p>
+                                </>
+                            }
+                        >
+                        </Card>
                     </Col>
-                    <Col m={6} s={12}>
-                        <CardPanel
-                            className="servicesCard center-align">
-                            <h4>Content Design</h4>
-                            <p>Voluptate ipsum irure dolore voluptate amet pariatur consectetur. Pariatur pariatur ex ut aliqua. Veniam Lorem laborum ad ullamco elit eiusmod voluptate laborum consectetur velit nostrud veniam sunt minim. Reprehenderit esse nulla exercitation in commodo laborum aliquip non culpa id exercitation. Pariatur laborum id incididunt ea. Mollit commodo excepteur nisi irure voluptate voluptate. Ipsum voluptate culpa nisi eu quis in aute commodo incididunt.</p>
-                        </CardPanel>
+                    <Col l={3} m={4} s={12}>
+                        <Card
+                            className="center-align"
+                            closeIcon={<Icon></Icon>}
+                            header={<CardTitle image={cd} reveal waves="light"/>}
+                            reveal={
+                                <>
+                                    <h6>Content Design</h6>
+                                    <p>
+                                        Our team will work to understand your requirements and audience to create the most effective content in order to reach your goals.
+                                    </p>
+                                </>
+                            }
+                        >
+                        </Card>
                     </Col>
-                    <Col m={6} s={12}>
-                        <CardPanel
-                            className="servicesCard center-align">
-                            <h4>Content Marketing</h4>
-                            <p>Voluptate ipsum irure dolore voluptate amet pariatur consectetur. Pariatur pariatur ex ut aliqua. Veniam Lorem laborum ad ullamco elit eiusmod voluptate laborum consectetur velit nostrud veniam sunt minim. Reprehenderit esse nulla exercitation in commodo laborum aliquip non culpa id exercitation. Pariatur laborum id incididunt ea. Mollit commodo excepteur nisi irure voluptate voluptate. Ipsum voluptate culpa nisi eu quis in aute commodo incididunt.</p>
-                        </CardPanel>
+                    <Col l={3} m={4} s={12}>
+                        <Card
+                            className="center-align"
+                            closeIcon={<Icon></Icon>}
+                            header={<CardTitle image={cm} reveal waves="light"/>}
+                            reveal={
+                                <>
+                                    <h6>Content Marketing</h6>
+                                    <p>
+                                        We develop and execute tailored marketing strategies to ensure your product reaches your target demographic efficiently.
+                                    </p>
+                                </>
+                            }
+                        >
+                        </Card>
                     </Col>
-                    <Col m={6} s={12}>
-                        <CardPanel
-                            className="servicesCard center-align">
-                            <h4>Digital Marketing</h4>
-                            <p>Voluptate ipsum irure dolore voluptate amet pariatur consectetur. Pariatur pariatur ex ut aliqua. Veniam Lorem laborum ad ullamco elit eiusmod voluptate laborum consectetur velit nostrud veniam sunt minim. Reprehenderit esse nulla exercitation in commodo laborum aliquip non culpa id exercitation. Pariatur laborum id incididunt ea. Mollit commodo excepteur nisi irure voluptate voluptate. Ipsum voluptate culpa nisi eu quis in aute commodo incididunt.</p>
-                        </CardPanel>
+                    <Col l={3} m={4} s={12}>
+                        <Card
+                            className="center-align"
+                            closeIcon={<Icon></Icon>}
+                            header={<CardTitle image={dm} reveal waves="light"/>}
+                            reveal={
+                                <>
+                                    <h6>Digital Marketing</h6>
+                                    <p>
+                                        Our elite team will take care of all your digital marketing requirements from social media handling to content creation and marketing to ensure your goals are always met.
+                                    </p>
+                                </>
+                            }
+                        >
+                        </Card>
                     </Col>
-                    <Col m={6} s={12}>
-                        <CardPanel
-                            className="servicesCard center-align">
-                            <h4>PR Services</h4>
-                            <p>Voluptate ipsum irure dolore voluptate amet pariatur consectetur. Pariatur pariatur ex ut aliqua. Veniam Lorem laborum ad ullamco elit eiusmod voluptate laborum consectetur velit nostrud veniam sunt minim. Reprehenderit esse nulla exercitation in commodo laborum aliquip non culpa id exercitation. Pariatur laborum id incididunt ea. Mollit commodo excepteur nisi irure voluptate voluptate. Ipsum voluptate culpa nisi eu quis in aute commodo incididunt.</p>
-                        </CardPanel>
-                    </Col>
-                    <Col m={6} s={12}>
-                        <CardPanel
-                            className="servicesCard center-align">
-                            <h4>Branding</h4>
-                            <p>Voluptate ipsum irure dolore voluptate amet pariatur consectetur. Pariatur pariatur ex ut aliqua. Veniam Lorem laborum ad ullamco elit eiusmod voluptate laborum consectetur velit nostrud veniam sunt minim. Reprehenderit esse nulla exercitation in commodo laborum aliquip non culpa id exercitation. Pariatur laborum id incididunt ea. Mollit commodo excepteur nisi irure voluptate voluptate. Ipsum voluptate culpa nisi eu quis in aute commodo incididunt.</p>
-                        </CardPanel>
+                    <Col l={3} m={4} s={12}>
+                        <Card
+                            className="center-align"
+                            closeIcon={<Icon></Icon>}
+                            header={<CardTitle image={prs} reveal waves="light"></CardTitle>}
+                            reveal={
+                                <>
+                                    <h6>PR Services</h6>
+                                    <p>
+                                        Our team offers various public relations services to help maintain and grow your brand's reputation and reach.
+                                    </p>
+                                </>
+                            }
+                        >
+                        </Card>
                     </Col>
                 </Row>
             </div>
         </div>
-
     );
 }
 
-export default OurWorks;
+export default services;
