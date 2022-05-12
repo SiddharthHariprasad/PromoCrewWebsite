@@ -11,7 +11,7 @@ const Footer = () =>{
                     {/* new column */}
                     <Col s={12} l={4} className="center">
                         {/*terms and conditions */}
-                        <Modal id="termsandconditions" header="Terms &amp; Conditions" trigger={<Button className="grey lighten-2 btn black-text center-align modal-trigger">TERMS &amp; CONDITIONS</Button>}>
+                        <Modal id="termsandconditions" header="Terms &amp; Conditions" trigger={<Button className="btn white-text center-align modal-trigger">TERMS &amp; CONDITIONS</Button>}>
                             <div className="modal-content">
                                 <p>
                                     Please read the terms and conditions carefully before using services of our website.<br />Your access to and use of the service is conditioned on your acceptance of and compliance with these terms. These terms apply to all visitors, users and others who access or use our services.<br />By accessing or using the service, you agree to be bound by these terms. If you disagree with any pass of the terms then you may not access the service.<br /><b>Termination</b><br />We may terminate or suspend access to our service immediately, without prior notice or liability, for any reason what’s over, including without limitation if you breach the terms.
@@ -20,7 +20,7 @@ const Footer = () =>{
                         </Modal>
                         <br /><br />
                         {/* privacy policy */}
-                        <Modal id="privacypolicy" header="Privacy Policy" trigger={<Button className="grey lighten-2 btn black-text center-align modal-trigger">PRIVACY POLICY</Button>}>
+                        <Modal id="privacypolicy" header="Privacy Policy" trigger={<Button className="btn white-text center-align modal-trigger">PRIVACY POLICY</Button>}>
                             <div className="modal-content">
                                 <p>
                                     This website is operated by PromoCrew] and whose registered address is [PromoCrew] we are committed to protecting and preserving the privacy of our visitors when visiting our site or communicating electronically with us.

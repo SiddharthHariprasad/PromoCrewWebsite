@@ -34,6 +34,10 @@ p, footer a,.footer-copyright {
     font-family: 'Roboto', sans-serif; 
 }
 
+.modal-trigger {
+    background-color: #ff0000;
+}
+
 .errorPage {
     align-items: center;
     text-align: center;
