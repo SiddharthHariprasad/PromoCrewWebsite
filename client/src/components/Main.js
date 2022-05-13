@@ -10,6 +10,7 @@ import OurWorks from './OurWorks';
 import Services from './Services';
 import ErrorPage from './ErrorPage';
 import Survey from './Survey';
+import SurveyLandingPage from './SurveyLandingPage';
 
 // All routes go here. Don't forget to import the components above after adding new route.
 
@@ -23,6 +24,7 @@ const Main = () => {
             <Route path="/ContactUs" component={ContactUs}></Route>
             <Route path="/OurWorks" component={OurWorks}></Route>
             <Route path="/Services" component={Services}></Route>
+            <Route path="/SurveyLandingPage" component={SurveyLandingPage}></Route>
             <Route path="/Survey" component={Survey}></Route>
             <Route component={ErrorPage}></Route>
         </Switch>
