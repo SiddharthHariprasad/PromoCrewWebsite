@@ -363,7 +363,27 @@ section > div > a {
     }
     
     .worksHeading {
-        font-size: 2em;
+        font-size: 1.9em;
+        
+    }
+}
+
+@media screen and (min-width: 300px) {
+    .card-content {
+        font-size: 0.75em;
+        height: 250px;
+    }
+    
+    .card {
+        height: 250px;
+    }
+
+    .card .card-reveal {
+        font-size: .75em
+    }
+    
+    .worksHeading {
+        font-size: 2.2em;
         
     }
 }
@@ -383,7 +403,7 @@ section > div > a {
     }
 
     .worksHeading {
-        font-size: 4em;
+        font-size: 3.9em;
     }
     
 }
@@ -403,7 +423,7 @@ section > div > a {
     }
 
     .worksHeading {
-        font-size: 6em;
+        font-size: 5.9em;
     }
     
 }
@@ -422,7 +442,7 @@ section > div > a {
     }
 
     .worksHeading {
-        font-size: 2.5em;
+        font-size: 2.4em;
     }
     
 }
@@ -442,7 +462,7 @@ section > div > a {
     }
 
     .worksHeading {
-        font-size: 3em;
+        font-size: 2.5em;
     }
     
 }
@@ -461,6 +481,9 @@ section > div > a {
         font-size: .8em
     }
     
+    .worksHeading {
+        font-size: 2.5em;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -482,7 +505,7 @@ section > div > a {
     }
 
     .worksHeading {
-        font-size: 2em;
+        font-size: 1.9em;
     }
 
 }
@@ -502,7 +525,7 @@ section > div > a {
     }
     
     .worksHeading {
-        font-size: 2.8em;
+        font-size: 2.4em;
     }
 
 }
