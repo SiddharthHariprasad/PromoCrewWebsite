@@ -71,7 +71,7 @@ function ContactUs() {
                                 waves="light"
                                 className="red accent-4 white-text">
                                     <Icon left>mail</Icon>
-                                    <span className="button-text">connect@promocrew.in</span>
+                                    <span className="button-text">Email Us</span>
                             </Button>
                     </p>
                 </div>

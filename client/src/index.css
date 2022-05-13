@@ -1,11 +1,12 @@
 /* Custom CSS styling */
 
 /* Importing fonts */
-@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;500&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;500&family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /* fonts can be used using the following CSS rules */
 /* 
     font-family: 'Akshar', sans-serif;
+    font-family: 'Alegreya Sans SC', sans-serif;
     font-family: 'Roboto', sans-serif;
 */
 
@@ -157,6 +158,11 @@ section > div > a {
     align-items: center;
 }
 
+.worksHeading {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 500;
+}
+
 .ourWorksPage .card .card-content ~ .card-reveal {
     display: block;
     transform: translateY(0%);
@@ -226,7 +232,8 @@ section > div > a {
 .contactPage {
     background: url(./components/images/liquid-cheese.svg) no-repeat center center fixed; 
     background-size: cover;
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     align-items: center;
 }
 
@@ -285,6 +292,16 @@ section > div > a {
     background-size: cover;
     padding: 50px;
     align-items: center;
+}
+
+.surveyPage {
+    align-items: center;
+    text-align: center;
+}
+
+iframe {
+    width: 640px; 
+    height: 3898px;
 }
 
 /* media */
@@ -347,6 +364,7 @@ section > div > a {
     
     .worksHeading {
         font-size: 2em;
+        
     }
 }
 
@@ -503,4 +521,18 @@ section > div > a {
         font-size: 1em
     }
     
+}
+
+@media screen and (max-width: 450px) {
+    iframe {
+        width: 200px;
+        height: 5598px;
+    }
+}
+
+@media screen and (min-width: 451px) and (max-width: 700px) {
+    iframe {
+        width: 400px;
+        height: 4198px;
+    }
 }
