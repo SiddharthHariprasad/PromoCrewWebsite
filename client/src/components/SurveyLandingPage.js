@@ -7,7 +7,6 @@ function SurveyLandingPage() {
         
         <div id="main-content" className="contactPage">
             <div className="container contactUsPage">
-                <h1>Survey</h1>
                 <div id="contactUsForm" className="from-section">
                     <h4>A few words about this survey</h4>
                     <p>
