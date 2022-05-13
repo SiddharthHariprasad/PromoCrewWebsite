@@ -56,15 +56,7 @@ function ContactUs() {
                     <p className="align-left">
                         {/* heading for contact us section */}
                             {/* links to various contacting options */}
-                            <Button
-                                href="tel:+919074342615"
-                                node="a"
-                                waves="light"
-                                className="red accent-4 white-text">
-                                    <Icon left>phone</Icon>
-                                    <span className="button-text">+919074342615</span>
-                            </Button>
-                            <br /><br />
+                            <h4>Want to tell us something more?</h4>
                             <Button
                                 href="mailto:connect@promocrew.in"
                                 node="a"
@@ -78,7 +70,7 @@ function ContactUs() {
 
                 <div>
                 <h2>Location</h2>
-                <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3086.4280113567243!2d77.62974956015064!3d12.929839965117164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1460d1af3721%3A0x7547770171fb3d5!2sWeWork!5e0!3m2!1sen!2sin!4v1651050303718!5m2!1sen!2sin" width="450" height="300" className="map"/>
+                <iframe id="map" title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3086.4280113567243!2d77.62974956015064!3d12.929839965117164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1460d1af3721%3A0x7547770171fb3d5!2sWeWork!5e0!3m2!1sen!2sin!4v1651050303718!5m2!1sen!2sin" width="450" height="300" className="map"/>
                 </div>
                 <br/>
             </div>

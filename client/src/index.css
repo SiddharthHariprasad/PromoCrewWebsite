@@ -299,7 +299,7 @@ section > div > a {
     text-align: center;
 }
 
-iframe {
+#survey {
     width: 640px; 
     height: 3898px;
 }
@@ -524,14 +524,14 @@ iframe {
 }
 
 @media screen and (max-width: 450px) {
-    iframe {
+    #survey {
         width: 200px;
         height: 5598px;
     }
 }
 
 @media screen and (min-width: 451px) and (max-width: 700px) {
-    iframe {
+    #survey {
         width: 400px;
         height: 4198px;
     }
