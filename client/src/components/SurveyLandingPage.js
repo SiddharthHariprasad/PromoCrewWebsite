@@ -5,9 +5,9 @@ function SurveyLandingPage() {
 
     return(
         
-        <div id="main-content" className="contactPage">
-            <div className="container contactUsPage">
-                <div id="contactUsForm" className="from-section">
+        <div id="main-content" className="surveyLandingPageBg">
+            <div className="container surveyLandingPage">
+                <div id="aboutSurvey" className="from-section">
                     <h4>A few words about this survey</h4>
                     <p>
                         We are conducting this survey to collect information on your shopping pattern to help us build our new fashion ecommerce platform.

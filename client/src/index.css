@@ -68,6 +68,12 @@ p, footer a,.footer-copyright {
     text-align: center;
 }
 
+.surveyLandingPage {
+    align-items: center;
+    text-align: center;
+    padding-bottom: 1.7%;
+}
+
 .sidenav {
     background-color: #ff0000;
     color: #e7e6e6;
@@ -230,6 +236,14 @@ section > div > a {
 }
 
 .contactPage {
+    background: url(./components/images/liquid-cheese.svg) no-repeat center center fixed; 
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+}
+
+.surveyLandingPageBg {
     background: url(./components/images/liquid-cheese.svg) no-repeat center center fixed; 
     background-size: cover;
     padding-top: 50px;
